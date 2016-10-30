@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        {# Load the tag library #}
+        {% load bootstrap3 %}
+        {# Load CSS and JavaScript #}
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css"/>
+        <link rel="stylesheet" href="http://leaflet.github.io/Leaflet.markercluster/dist/MarkerCluster.css"/>
+        <link rel="stylesheet" href="http://leaflet.github.io/Leaflet.markercluster/dist/MarkerCluster.Default.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <script src="http://leaflet.github.io/Leaflet.markercluster/dist/leaflet.markercluster-src.js"></script>
+        <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
+
+        {% bootstrap_css %}
+        {% bootstrap_javascript %}
+        <title>
+            {% block title %}{% endblock %}
+        </title>
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="{% static 'css/custom-sidebar.css' %}"/>
+        <link rel="stylesheet" type="text/css" href="{% static 'css/custom-nav.css' %}"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.3.0/css/bootstrap-slider.min.css"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.3.0/bootstrap-slider.min.js"></script>
+        <style>
+            .margin-top-05 {
+                margin-top: 0.5em;
+            }
+            .margin-top-10 {
+                margin-top: 1.0em;
+            }
+            .margin-top-15 {
+                margin-top: 1.5em;
+            }
+            .margin-top-20 {
+                margin-top: 2.0em;
+            }
+            .margin-top-25 {
+                margin-top: 2.5em;
+            }
+            .margin-top-30 {
+                margin-top: 3.0em;
+            }
+
+            #mapid {
+                position: absolute;
+                top: 50px;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                overflow: hidden;
+                z-index: -1;
+            }
+
+            body {
+                background-image: url("/static/css/bg.png");
+                background-repeat: repeat;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div id="wrapper" class="active">
+            <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="/" style="transform: translateX(-50%); left: 50%; position: absolute; font-family: 'Pacifico', cursive; font-size:32px; color:white;">
+                            BetterMapper
+                        </a>
+                        <div class="navbar-brand" id="navbar-search-toggle">
+                            <a id="menu-toggle" href="#" class="glyphicon glyphicon-align-justify btn-menu toggle">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li id="home">
+                                <a href="/">Home</a>
+                            </li>
+                            {% if not user.is_authenticated %}
+                                <li>
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account
+                                        <span class="caret"></span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="/account/register/">Register</a>
+                                        </li>
+                                        <li>
+                                            <a href="/account/login/">Login</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            {% endif %}
+                            {% if user.is_authenticated %}
+                                <li id="listing">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Listings
+                                        <span class="caret"></span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="/listing/create/">Create Listing</a>
+                                        </li>
+                                        <li>
+                                            <a href="/listing/view/">My Listings</a>
+                                        </li>
+                                        <li>
+                                            <a href="/listing/viewAll/">All Listings</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            {% endif %}
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            {% if user.is_authenticated %}
+                                <li>
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Welcome
+                                        {{ user.first_name }}
+                                        {{ user.last_name }}!
+                                        <span class="caret"></span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="/account/logout/">Logout</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            {% else %}
+                                <a class="btn btn-primary navbar-btn" href="/account/login/">Login</a>
+                            {% endif %}
+                        </ul>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+            </nav>
+            <!-- Sidebar -->
+            <div id="sidebar-wrapper">
+                <nav id="spy">
+                    <ul class="sidebar-nav nav">
+                        <li class="sidebar-brand">
+                            <a href="#home" id="do_not_click" onfocus="this.blur();">
+                                <span class="fa fa-home solo">Toggle Data</span>
+                            </a>
+                        </li>
+                        <li id="school">
+                            <a href="#anch1" onclick="updateMap(1)">
+                                <span class="fa fa-anchor solo">Schools</span>
+                                <label id="school-toggle" class="glyphicon glyphicon-ok hidden" aria-hidden="true"></label>
+                            </a>
+                        </li>
+                        <li id="clinic">
+                            <a href="#anch2" onclick="updateMap(2)">
+                                <span class="fa fa-anchor solo">Clinics</span>
+                                <label id="clinic-toggle" class="glyphicon glyphicon-ok hidden" aria-hidden="true"></label>
+                            </a>
+                        </li>
+                        <li id="park">
+                            <a href="#anch3" id="park-switch" onclick="updateMap(3)">
+                                <span class="fa fa-anchor">Parks</span>
+                                <label id="park-toggle" class="glyphicon glyphicon-ok hidden" aria-hidden="true"></label>
+                            </a>
+                        </li>
+                        <li>
+                            <input id="ex1" span="1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="0"/>
+                        </li>
+                        <li id="search">
+                            <a href="#anch3" id="search-switch">
+                                <span class="fa fa-anchor">Advance Search</span>
+                                <label id="search-toggle" class="glyphicon glyphicon-search hidden" aria-hidden="true"></label>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- http://bootsnipp.com/snippets/4OZ8R -->
+            <!-- Page content -->
+            <div id="page-content-wrapper">
+                <div class="page-content">
+                    <div class="container-fluid">
+                        {% block content %}{% endblock %}
+                    </div>
+                    <!-- END CONTAINER -->
+                </div>
+            </div>
+        </div>
+        {% block js %}{% endblock %}
+        <script type="text/javascript">
+            $('#do_not_click').click(false);
+            /*Menu-toggle*/
+            $("#menu-toggle").click(function (e) {
+                e.preventDefault();
+                $("#wrapper").toggleClass("active");
+            });
+            $('#ex1').slider({
+                formatter: function (value) {
+                    return 'Radius: ' + value + "km";
+                }
+            });
+        </script>
+        <script src="{% static 'js/custom-sidebar.js' %}"></script>
+        <script src="{% static 'js/bootstrap-slider.js' %}"></script>
+    </body>
+
+</html>

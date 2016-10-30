@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Login
+{% endblock %}
+
+{% load bootstrap3 %}
+{% block content %}
+
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Login</h3>
+                </div>
+                <div class="panel-body">
+                    <form method='POST' action=''>
+                        {% csrf_token %}
+                        {% bootstrap_form form %}
+                        {% bootstrap_button "Submit" button_type = "submit" button_class = "btn-primary" %}
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+
+{% endblock %}
+{% block js %}
+    <script type="text/javascript">
+        document.getElementById('sidebar-wrapper').innerHTML = '';
+        document.getElementById('navbar-search-toggle').innerHTML = '';
+    </script>
+{% endblock %}

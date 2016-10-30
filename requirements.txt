@@ -1,0 +1,5 @@
+autopep8==1.2.4
+Django==1.10
+django-bootstrap3==7.0.1
+pep8==1.7.0
+Pillow==3.3.1

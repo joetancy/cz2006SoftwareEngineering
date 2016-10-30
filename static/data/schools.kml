@@ -1,0 +1,4051 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>csv_20161025124713</name>
+<Schema name="csv_20161025124713" id="csv_20161025124713">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="address" type="string"></SimpleField>
+	<SimpleField name="postal_code" type="string"></SimpleField>
+	<SimpleField name="latitude" type="string"></SimpleField>
+	<SimpleField name="longitude" type="string"></SimpleField>
+</Schema>
+  <Placemark>
+	<name>ADMIRALTY PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ADMIRALTY PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">11 WOODLANDS CIRCLE</SimpleData>
+		<SimpleData name="postal_code">738907</SimpleData>
+		<SimpleData name="latitude">1.442888</SimpleData>
+		<SimpleData name="longitude">103.799693</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.799693,1.442888</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ADMIRALTY SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ADMIRALTY SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">31 WOODLANDS CRESCENT</SimpleData>
+		<SimpleData name="postal_code">737916</SimpleData>
+		<SimpleData name="latitude">1.445881</SimpleData>
+		<SimpleData name="longitude">103.802398</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.802398,1.445881</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>AHMAD IBRAHIM PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">AHMAD IBRAHIM PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">10 YISHUN STREET 11</SimpleData>
+		<SimpleData name="postal_code">768643</SimpleData>
+		<SimpleData name="latitude">1.433543</SimpleData>
+		<SimpleData name="longitude">103.832949</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.832949,1.433543</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>AHMAD IBRAHIM SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">AHMAD IBRAHIM SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">751 YISHUN AVENUE 7</SimpleData>
+		<SimpleData name="postal_code">768928</SimpleData>
+		<SimpleData name="latitude">1.436663</SimpleData>
+		<SimpleData name="longitude">103.829889</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.829889,1.436663</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>AI TONG SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">AI TONG SCHOOL</SimpleData>
+		<SimpleData name="address">100 Bright Hill Drive</SimpleData>
+		<SimpleData name="postal_code">579646</SimpleData>
+		<SimpleData name="latitude">1.360415</SimpleData>
+		<SimpleData name="longitude">103.832615</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.832615,1.360415</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ALEXANDRA PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ALEXANDRA PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">2A Prince Charles Crescent</SimpleData>
+		<SimpleData name="postal_code">159016</SimpleData>
+		<SimpleData name="latitude">1.29273</SimpleData>
+		<SimpleData name="longitude">103.822089</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.822089,1.29273</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ANCHOR GREEN PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ANCHOR GREEN PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">31 Anchorvale Drive</SimpleData>
+		<SimpleData name="postal_code">544969</SimpleData>
+		<SimpleData name="latitude">1.390652</SimpleData>
+		<SimpleData name="longitude">103.887283</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.887283,1.390652</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ANDERSON JUNIOR COLLEGE</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ANDERSON JUNIOR COLLEGE</SimpleData>
+		<SimpleData name="address">4500 ANG MO KIO AVENUE 6</SimpleData>
+		<SimpleData name="postal_code">569843</SimpleData>
+		<SimpleData name="latitude">1.378043</SimpleData>
+		<SimpleData name="longitude">103.845762</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.845762,1.378043</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ANDERSON PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ANDERSON PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">19 ANG MO KIO AVE 9 ANDERSON PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="postal_code">569785</SimpleData>
+		<SimpleData name="latitude">1.384692</SimpleData>
+		<SimpleData name="longitude">103.841225</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.841225,1.384692</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ANDERSON SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ANDERSON SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">10 ANG MO KIO STREET 53</SimpleData>
+		<SimpleData name="postal_code">569206</SimpleData>
+		<SimpleData name="latitude">1.374262</SimpleData>
+		<SimpleData name="longitude">103.851456</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.851456,1.374262</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ANG MO KIO PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ANG MO KIO PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">20 ANG MO KIO AVENUE 3 ANG MO KIO PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="postal_code">569920</SimpleData>
+		<SimpleData name="latitude">1.368803</SimpleData>
+		<SimpleData name="longitude">103.839266</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.839266,1.368803</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ANG MO KIO SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ANG MO KIO SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">6 ANG MO KIO STREET 22</SimpleData>
+		<SimpleData name="postal_code">569362</SimpleData>
+		<SimpleData name="latitude">1.367353</SimpleData>
+		<SimpleData name="longitude">103.8426</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.8426,1.367353</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ANGLICAN HIGH SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ANGLICAN HIGH SCHOOL</SimpleData>
+		<SimpleData name="address">600 UPPER CHANGI ROAD</SimpleData>
+		<SimpleData name="postal_code">487012</SimpleData>
+		<SimpleData name="latitude">1.330302</SimpleData>
+		<SimpleData name="longitude">103.941937</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.941937,1.330302</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ANGLO-CHINESE JUNIOR COLLEGE</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ANGLO-CHINESE JUNIOR COLLEGE</SimpleData>
+		<SimpleData name="address">25 DOVER CLOSE EAST</SimpleData>
+		<SimpleData name="postal_code">139745</SimpleData>
+		<SimpleData name="latitude">1.303305</SimpleData>
+		<SimpleData name="longitude">103.785253</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.785253,1.303305</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ANGLO-CHINESE SCHOOL (BARKER ROAD)</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ANGLO-CHINESE SCHOOL (BARKER ROAD)</SimpleData>
+		<SimpleData name="address">60 BARKER ROAD</SimpleData>
+		<SimpleData name="postal_code">309919</SimpleData>
+		<SimpleData name="latitude">1.319611</SimpleData>
+		<SimpleData name="longitude">103.835757</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.835757,1.319611</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ANGLO-CHINESE SCHOOL (INDEPENDENT)</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ANGLO-CHINESE SCHOOL (INDEPENDENT)</SimpleData>
+		<SimpleData name="address">121 DOVER ROAD</SimpleData>
+		<SimpleData name="postal_code">139650</SimpleData>
+		<SimpleData name="latitude">1.302189</SimpleData>
+		<SimpleData name="longitude">103.780078</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.780078,1.302189</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ANGLO-CHINESE SCHOOL (JUNIOR)</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ANGLO-CHINESE SCHOOL (JUNIOR)</SimpleData>
+		<SimpleData name="address">16 WINSTEDT ROAD</SimpleData>
+		<SimpleData name="postal_code">227988</SimpleData>
+		<SimpleData name="latitude">1.309454</SimpleData>
+		<SimpleData name="longitude">103.841372</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.841372,1.309454</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ANGLO-CHINESE SCHOOL (PRIMARY)</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ANGLO-CHINESE SCHOOL (PRIMARY)</SimpleData>
+		<SimpleData name="address">50 BARKER ROAD</SimpleData>
+		<SimpleData name="postal_code">309918</SimpleData>
+		<SimpleData name="latitude">1.318735</SimpleData>
+		<SimpleData name="longitude">103.835345</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.835345,1.318735</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ANGSANA PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ANGSANA PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">3 Tampines Street 22</SimpleData>
+		<SimpleData name="postal_code">529366</SimpleData>
+		<SimpleData name="latitude">1.348251</SimpleData>
+		<SimpleData name="longitude">103.951859</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.951859,1.348251</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ASSUMPTION ENGLISH SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ASSUMPTION ENGLISH SCHOOL</SimpleData>
+		<SimpleData name="address">622 Upper Bukit Timah Road Assumption English School</SimpleData>
+		<SimpleData name="postal_code">678117</SimpleData>
+		<SimpleData name="latitude">1.369148</SimpleData>
+		<SimpleData name="longitude">103.767475</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.767475,1.369148</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ASSUMPTION PATHWAY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ASSUMPTION PATHWAY SCHOOL</SimpleData>
+		<SimpleData name="address">30 Cashew Road</SimpleData>
+		<SimpleData name="postal_code">679697</SimpleData>
+		<SimpleData name="latitude">1.370527</SimpleData>
+		<SimpleData name="longitude">103.766753</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.766753,1.370527</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BALESTIER HILL PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">BALESTIER HILL PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">565 BALESTIER ROAD</SimpleData>
+		<SimpleData name="postal_code">329927</SimpleData>
+		<SimpleData name="latitude">1.325976</SimpleData>
+		<SimpleData name="longitude">103.844562</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.844562,1.325976</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BALESTIER HILL SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">BALESTIER HILL SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">11 NOVENA RISE</SimpleData>
+		<SimpleData name="postal_code">307516</SimpleData>
+		<SimpleData name="latitude">1.324729</SimpleData>
+		<SimpleData name="longitude">103.84457</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.84457,1.324729</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BARTLEY SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">BARTLEY SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">10 JALAN BUNGA RAMPAI ROAD</SimpleData>
+		<SimpleData name="postal_code">538403</SimpleData>
+		<SimpleData name="latitude">1.340275</SimpleData>
+		<SimpleData name="longitude">103.882831</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.882831,1.340275</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BEACON PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">BEACON PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">36 Bukit Panjang Ring Road</SimpleData>
+		<SimpleData name="postal_code">679944</SimpleData>
+		<SimpleData name="latitude">1.384235</SimpleData>
+		<SimpleData name="longitude">103.77377</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.77377,1.384235</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BEATTY SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">BEATTY SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">1 TOA PAYOH NORTH</SimpleData>
+		<SimpleData name="postal_code">318990</SimpleData>
+		<SimpleData name="latitude">1.34154</SimpleData>
+		<SimpleData name="longitude">103.851956</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.851956,1.34154</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BEDOK GREEN PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">BEDOK GREEN PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">1 BEDOK SOUTH AVE 2</SimpleData>
+		<SimpleData name="postal_code">469317</SimpleData>
+		<SimpleData name="latitude">1.323989</SimpleData>
+		<SimpleData name="longitude">103.937761</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.937761,1.323989</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BEDOK GREEN SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">BEDOK GREEN SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">360 BEDOK NORTH AVE 3</SimpleData>
+		<SimpleData name="postal_code">469722</SimpleData>
+		<SimpleData name="latitude">1.333844</SimpleData>
+		<SimpleData name="longitude">103.935512</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.935512,1.333844</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BEDOK NORTH SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">BEDOK NORTH SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">20 JALAN DAMAI</SimpleData>
+		<SimpleData name="postal_code">419612</SimpleData>
+		<SimpleData name="latitude">1.334289</SimpleData>
+		<SimpleData name="longitude">103.910319</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.910319,1.334289</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BEDOK SOUTH SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">BEDOK SOUTH SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">1 JALAN LANGGAR BEDOK</SimpleData>
+		<SimpleData name="postal_code">468585</SimpleData>
+		<SimpleData name="latitude">1.324809</SimpleData>
+		<SimpleData name="longitude">103.950977</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.950977,1.324809</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BEDOK VIEW SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">BEDOK VIEW SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">6 BEDOK SOUTH AVENUE 3</SimpleData>
+		<SimpleData name="postal_code">469293</SimpleData>
+		<SimpleData name="latitude">1.324312</SimpleData>
+		<SimpleData name="longitude">103.943919</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.943919,1.324312</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BENDEMEER PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">BENDEMEER PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">91 BENDEMEER ROAD</SimpleData>
+		<SimpleData name="postal_code">339948</SimpleData>
+		<SimpleData name="latitude">1.322197</SimpleData>
+		<SimpleData name="longitude">103.865365</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.865365,1.322197</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BENDEMEER SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">BENDEMEER SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">1 ST WILFRED ROAD</SimpleData>
+		<SimpleData name="postal_code">327919</SimpleData>
+		<SimpleData name="latitude">1.32432</SimpleData>
+		<SimpleData name="longitude">103.861002</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.861002,1.32432</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BISHAN PARK SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">BISHAN PARK SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">2 SIN MING WALK</SimpleData>
+		<SimpleData name="postal_code">575565</SimpleData>
+		<SimpleData name="latitude">1.364364</SimpleData>
+		<SimpleData name="longitude">103.832825</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.832825,1.364364</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BLANGAH RISE PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">BLANGAH RISE PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">91 TELOK BLANGAH HEIGHTS</SimpleData>
+		<SimpleData name="postal_code">109100</SimpleData>
+		<SimpleData name="latitude">1.276261</SimpleData>
+		<SimpleData name="longitude">103.808522</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.808522,1.276261</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BOON LAY GARDEN PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">BOON LAY GARDEN PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">20 BOON LAY DRIVE</SimpleData>
+		<SimpleData name="postal_code">649930</SimpleData>
+		<SimpleData name="latitude">1.34287</SimpleData>
+		<SimpleData name="longitude">103.712983</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.712983,1.34287</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BOON LAY SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">BOON LAY SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">11 JURONG WEST STREET 65</SimpleData>
+		<SimpleData name="postal_code">648354</SimpleData>
+		<SimpleData name="latitude">1.342172</SimpleData>
+		<SimpleData name="longitude">103.701945</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.701945,1.342172</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BOWEN SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">BOWEN SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">2 LORONG NAPIRI</SimpleData>
+		<SimpleData name="postal_code">547529</SimpleData>
+		<SimpleData name="latitude">1.370117</SimpleData>
+		<SimpleData name="longitude">103.877649</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.877649,1.370117</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BROADRICK SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">BROADRICK SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">61 DAKOTA CRESCENT</SimpleData>
+		<SimpleData name="postal_code">399935</SimpleData>
+		<SimpleData name="latitude">1.307522</SimpleData>
+		<SimpleData name="longitude">103.886698</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.886698,1.307522</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BUKIT BATOK SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">BUKIT BATOK SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">50 BUKIT BATOK WEST AVE 8</SimpleData>
+		<SimpleData name="postal_code">658962</SimpleData>
+		<SimpleData name="latitude">1.348506</SimpleData>
+		<SimpleData name="longitude">103.740867</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.740867,1.348506</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BUKIT MERAH SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">BUKIT MERAH SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">10 LENGKOK BAHRU</SimpleData>
+		<SimpleData name="postal_code">159050</SimpleData>
+		<SimpleData name="latitude">1.285583</SimpleData>
+		<SimpleData name="longitude">103.81344</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.81344,1.285583</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BUKIT PANJANG GOVT. HIGH SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">BUKIT PANJANG GOVT. HIGH SCHOOL</SimpleData>
+		<SimpleData name="address">7 CHOA CHU KANG AVE 4</SimpleData>
+		<SimpleData name="postal_code">689809</SimpleData>
+		<SimpleData name="latitude">1.38166</SimpleData>
+		<SimpleData name="longitude">103.738424</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.738424,1.38166</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BUKIT PANJANG PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">BUKIT PANJANG PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">109 CASHEW ROAD</SimpleData>
+		<SimpleData name="postal_code">679676</SimpleData>
+		<SimpleData name="latitude">1.37293</SimpleData>
+		<SimpleData name="longitude">103.769259</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.769259,1.37293</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BUKIT TIMAH PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">BUKIT TIMAH PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">111 Lorong Kismis Bukit Timah Primary School</SimpleData>
+		<SimpleData name="postal_code">598112</SimpleData>
+		<SimpleData name="latitude">1.337385</SimpleData>
+		<SimpleData name="longitude">103.766768</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.766768,1.337385</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BUKIT VIEW PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">BUKIT VIEW PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">18 BUKIT BATOK STREET 21</SimpleData>
+		<SimpleData name="postal_code">659634</SimpleData>
+		<SimpleData name="latitude">1.34618</SimpleData>
+		<SimpleData name="longitude">103.753863</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.753863,1.34618</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BUKIT VIEW SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">BUKIT VIEW SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">16 BUKIT BATOK STREET 21</SimpleData>
+		<SimpleData name="postal_code">659633</SimpleData>
+		<SimpleData name="latitude">1.34572</SimpleData>
+		<SimpleData name="longitude">103.752298</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.752298,1.34572</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CANBERRA PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CANBERRA PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">21 ADMIRALTY DRIVE</SimpleData>
+		<SimpleData name="postal_code">757714</SimpleData>
+		<SimpleData name="latitude">1.450666</SimpleData>
+		<SimpleData name="longitude">103.81587</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.81587,1.450666</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CANBERRA SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CANBERRA SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">51 SEMBAWANG DRIVE</SimpleData>
+		<SimpleData name="postal_code">757699</SimpleData>
+		<SimpleData name="latitude">1.453794</SimpleData>
+		<SimpleData name="longitude">103.814663</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.814663,1.453794</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CANOSSA CONVENT PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CANOSSA CONVENT PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">1 Sallim Road</SimpleData>
+		<SimpleData name="postal_code">387621</SimpleData>
+		<SimpleData name="latitude">1.326166</SimpleData>
+		<SimpleData name="longitude">103.882253</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.882253,1.326166</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CANTONMENT PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CANTONMENT PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">1 Cantonment Close</SimpleData>
+		<SimpleData name="postal_code">88256</SimpleData>
+		<SimpleData name="latitude">1.27562</SimpleData>
+		<SimpleData name="longitude">103.84</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.84,1.27562</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CASUARINA PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CASUARINA PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">30 PASIR RIS ST 41</SimpleData>
+		<SimpleData name="postal_code">518935</SimpleData>
+		<SimpleData name="latitude">1.372421</SimpleData>
+		<SimpleData name="longitude">103.957724</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.957724,1.372421</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CATHOLIC HIGH SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CATHOLIC HIGH SCHOOL</SimpleData>
+		<SimpleData name="address">9 BISHAN STREET 22</SimpleData>
+		<SimpleData name="postal_code">579767</SimpleData>
+		<SimpleData name="latitude">1.355193</SimpleData>
+		<SimpleData name="longitude">103.846228</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.846228,1.355193</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CATHOLIC JUNIOR COLLEGE</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CATHOLIC JUNIOR COLLEGE</SimpleData>
+		<SimpleData name="address">129 WHITLEY ROAD</SimpleData>
+		<SimpleData name="postal_code">297822</SimpleData>
+		<SimpleData name="latitude">1.324641</SimpleData>
+		<SimpleData name="longitude">103.83554</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.83554,1.324641</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CEDAR GIRLS' SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CEDAR GIRLS' SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">1 CEDAR AVENUE</SimpleData>
+		<SimpleData name="postal_code">349692</SimpleData>
+		<SimpleData name="latitude">1.333751</SimpleData>
+		<SimpleData name="longitude">103.874242</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.874242,1.333751</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CEDAR PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CEDAR PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">15 CEDAR AVENUE</SimpleData>
+		<SimpleData name="postal_code">349700</SimpleData>
+		<SimpleData name="latitude">1.335578</SimpleData>
+		<SimpleData name="longitude">103.876669</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.876669,1.335578</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CHANGKAT CHANGI SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CHANGKAT CHANGI SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">23 SIMEI ST 3</SimpleData>
+		<SimpleData name="postal_code">529894</SimpleData>
+		<SimpleData name="latitude">1.340939</SimpleData>
+		<SimpleData name="longitude">103.952619</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.952619,1.340939</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CHANGKAT PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CHANGKAT PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">11 SIMEI ST 3</SimpleData>
+		<SimpleData name="postal_code">529896</SimpleData>
+		<SimpleData name="latitude">1.340164</SimpleData>
+		<SimpleData name="longitude">103.951801</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.951801,1.340164</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CHIJ (KATONG) PRIMARY</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CHIJ (KATONG) PRIMARY</SimpleData>
+		<SimpleData name="address">17 MARTIA ROAD</SimpleData>
+		<SimpleData name="postal_code">424821</SimpleData>
+		<SimpleData name="latitude">1.306931</SimpleData>
+		<SimpleData name="longitude">103.910846</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.910846,1.306931</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CHIJ (KELLOCK)</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CHIJ (KELLOCK)</SimpleData>
+		<SimpleData name="address">1 Bukit Teresa Road</SimpleData>
+		<SimpleData name="postal_code">99757</SimpleData>
+		<SimpleData name="latitude">1.274904</SimpleData>
+		<SimpleData name="longitude">103.827933</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.827933,1.274904</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CHIJ KATONG CONVENT</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CHIJ KATONG CONVENT</SimpleData>
+		<SimpleData name="address">3 GEYLANG BAHRU LANE</SimpleData>
+		<SimpleData name="postal_code">339626</SimpleData>
+		<SimpleData name="latitude">1.324084</SimpleData>
+		<SimpleData name="longitude">103.87089</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.87089,1.324084</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CHIJ OUR LADY OF GOOD COUNSEL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CHIJ OUR LADY OF GOOD COUNSEL</SimpleData>
+		<SimpleData name="address">2C Burghley Drive</SimpleData>
+		<SimpleData name="postal_code">558979</SimpleData>
+		<SimpleData name="latitude">1.35732</SimpleData>
+		<SimpleData name="longitude">103.863998</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.863998,1.35732</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CHIJ OUR LADY OF THE NATIVITY</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CHIJ OUR LADY OF THE NATIVITY</SimpleData>
+		<SimpleData name="address">1257 UPPER SERANGOON ROAD</SimpleData>
+		<SimpleData name="postal_code">534793</SimpleData>
+		<SimpleData name="latitude">1.372971</SimpleData>
+		<SimpleData name="longitude">103.898088</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.898088,1.372971</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CHIJ OUR LADY QUEEN OF PEACE</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CHIJ OUR LADY QUEEN OF PEACE</SimpleData>
+		<SimpleData name="address">4 Chestnut Drive</SimpleData>
+		<SimpleData name="postal_code">679287</SimpleData>
+		<SimpleData name="latitude">1.366297</SimpleData>
+		<SimpleData name="longitude">103.767594</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.767594,1.366297</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CHIJ PRIMARY (TOA PAYOH)</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CHIJ PRIMARY (TOA PAYOH)</SimpleData>
+		<SimpleData name="address">628 Lorong 1 Toa Payoh</SimpleData>
+		<SimpleData name="postal_code">319765</SimpleData>
+		<SimpleData name="latitude">1.333107</SimpleData>
+		<SimpleData name="longitude">103.841908</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.841908,1.333107</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CHIJ SECONDARY (TOA PAYOH)</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CHIJ SECONDARY (TOA PAYOH)</SimpleData>
+		<SimpleData name="address">626 LORONG 1 TOA PAYOH</SimpleData>
+		<SimpleData name="postal_code">319764</SimpleData>
+		<SimpleData name="latitude">1.332007</SimpleData>
+		<SimpleData name="longitude">103.842993</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.842993,1.332007</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CHIJ ST. JOSEPH'S CONVENT</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CHIJ ST. JOSEPH'S CONVENT</SimpleData>
+		<SimpleData name="address">62 SENG KANG EAST WAY</SimpleData>
+		<SimpleData name="postal_code">548595</SimpleData>
+		<SimpleData name="latitude">1.391747</SimpleData>
+		<SimpleData name="longitude">103.902461</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.902461,1.391747</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CHIJ ST. NICHOLAS GIRLS' SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CHIJ ST. NICHOLAS GIRLS' SCHOOL</SimpleData>
+		<SimpleData name="address">501 ANG MO KIO STREET 13</SimpleData>
+		<SimpleData name="postal_code">569405</SimpleData>
+		<SimpleData name="latitude">1.373744</SimpleData>
+		<SimpleData name="longitude">103.834301</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.834301,1.373744</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CHIJ ST. THERESA'S CONVENT</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CHIJ ST. THERESA'S CONVENT</SimpleData>
+		<SimpleData name="address">160 LOWER DELTA ROAD</SimpleData>
+		<SimpleData name="postal_code">99138</SimpleData>
+		<SimpleData name="latitude">1.275955</SimpleData>
+		<SimpleData name="longitude">103.822073</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.822073,1.275955</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CHONG BOON SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CHONG BOON SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">2 ANG MO KIO STREET 44</SimpleData>
+		<SimpleData name="postal_code">569250</SimpleData>
+		<SimpleData name="latitude">1.363994</SimpleData>
+		<SimpleData name="longitude">103.858355</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.858355,1.363994</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CHONGFU SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CHONGFU SCHOOL</SimpleData>
+		<SimpleData name="address">170 YISHUN AVENUE 6</SimpleData>
+		<SimpleData name="postal_code">768959</SimpleData>
+		<SimpleData name="latitude">1.438563</SimpleData>
+		<SimpleData name="longitude">103.839285</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.839285,1.438563</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CHONGZHENG PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CHONGZHENG PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">1 TAMPINES STREET 21</SimpleData>
+		<SimpleData name="postal_code">529392</SimpleData>
+		<SimpleData name="latitude">1.350835</SimpleData>
+		<SimpleData name="longitude">103.951438</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.951438,1.350835</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CHRIST CHURCH SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CHRIST CHURCH SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">20 WOODLANDS DRIVE 17</SimpleData>
+		<SimpleData name="postal_code">737924</SimpleData>
+		<SimpleData name="latitude">1.426395</SimpleData>
+		<SimpleData name="longitude">103.793419</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.793419,1.426395</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CHUA CHU KANG PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CHUA CHU KANG PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">20 CHOA CHU KANG AVENUE 2</SimpleData>
+		<SimpleData name="postal_code">689905</SimpleData>
+		<SimpleData name="latitude">1.378056</SimpleData>
+		<SimpleData name="longitude">103.741723</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.741723,1.378056</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CHUA CHU KANG SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CHUA CHU KANG SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">3 TECK WHYE CRESCENT</SimpleData>
+		<SimpleData name="postal_code">688845</SimpleData>
+		<SimpleData name="latitude">1.383169</SimpleData>
+		<SimpleData name="longitude">103.751584</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.751584,1.383169</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CHUNG CHENG HIGH SCHOOL (MAIN)</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CHUNG CHENG HIGH SCHOOL (MAIN)</SimpleData>
+		<SimpleData name="address">50 GOODMAN ROAD</SimpleData>
+		<SimpleData name="postal_code">439012</SimpleData>
+		<SimpleData name="latitude">1.305368</SimpleData>
+		<SimpleData name="longitude">103.890726</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.890726,1.305368</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CHUNG CHENG HIGH SCHOOL (YISHUN)</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CHUNG CHENG HIGH SCHOOL (YISHUN)</SimpleData>
+		<SimpleData name="address">11 YISHUN STREET 61</SimpleData>
+		<SimpleData name="postal_code">768547</SimpleData>
+		<SimpleData name="latitude">1.418737</SimpleData>
+		<SimpleData name="longitude">103.837311</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.837311,1.418737</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CLEMENTI PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CLEMENTI PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">8 CLEMENTI AVE 3</SimpleData>
+		<SimpleData name="postal_code">129903</SimpleData>
+		<SimpleData name="latitude">1.315403</SimpleData>
+		<SimpleData name="longitude">103.763253</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.763253,1.315403</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CLEMENTI TOWN SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CLEMENTI TOWN SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">10 CLEMENTI AVE 3</SimpleData>
+		<SimpleData name="postal_code">129904</SimpleData>
+		<SimpleData name="latitude">1.315501</SimpleData>
+		<SimpleData name="longitude">103.762094</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.762094,1.315501</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>COMMONWEALTH SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">COMMONWEALTH SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">698 WEST COAST ROAD</SimpleData>
+		<SimpleData name="postal_code">608784</SimpleData>
+		<SimpleData name="latitude">1.3192</SimpleData>
+		<SimpleData name="longitude">103.745652</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.745652,1.3192</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>COMPASSVALE PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">COMPASSVALE PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">21 COMPASSVALE ST</SimpleData>
+		<SimpleData name="postal_code">545091</SimpleData>
+		<SimpleData name="latitude">1.39418</SimpleData>
+		<SimpleData name="longitude">103.897901</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.897901,1.39418</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>COMPASSVALE SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">COMPASSVALE SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">51 COMPASSVALE CRESCENT</SimpleData>
+		<SimpleData name="postal_code">545083</SimpleData>
+		<SimpleData name="latitude">1.396086</SimpleData>
+		<SimpleData name="longitude">103.899711</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.899711,1.396086</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CONCORD PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CONCORD PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">3 CHOA CHU KANG AVE 4</SimpleData>
+		<SimpleData name="postal_code">689814</SimpleData>
+		<SimpleData name="latitude">1.380026</SimpleData>
+		<SimpleData name="longitude">103.73625</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.73625,1.380026</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CORAL PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CORAL PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">20 PASIR RIS ST 51</SimpleData>
+		<SimpleData name="postal_code">518902</SimpleData>
+		<SimpleData name="latitude">1.367979</SimpleData>
+		<SimpleData name="longitude">103.950803</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.950803,1.367979</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CORAL SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CORAL SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">31 PASIR RIS STREET 51</SimpleData>
+		<SimpleData name="postal_code">518901</SimpleData>
+		<SimpleData name="latitude">1.367101</SimpleData>
+		<SimpleData name="longitude">103.949261</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.949261,1.367101</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CORPORATION PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CORPORATION PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">31 JURONG WEST STREET 24</SimpleData>
+		<SimpleData name="postal_code">648347</SimpleData>
+		<SimpleData name="latitude">1.351499</SimpleData>
+		<SimpleData name="longitude">103.707576</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.707576,1.351499</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CRESCENT GIRLS' SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CRESCENT GIRLS' SCHOOL</SimpleData>
+		<SimpleData name="address">357 TANGLIN ROAD</SimpleData>
+		<SimpleData name="postal_code">247961</SimpleData>
+		<SimpleData name="latitude">1.293338</SimpleData>
+		<SimpleData name="longitude">103.817566</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.817566,1.293338</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CREST SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">CREST SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">561 JURONG EAST STREET 24</SimpleData>
+		<SimpleData name="postal_code">609561</SimpleData>
+		<SimpleData name="latitude">1.343466</SimpleData>
+		<SimpleData name="longitude">103.742462</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.742462,1.343466</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>DA QIAO PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">DA QIAO PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">8 ANG MO KIO STREET 54</SimpleData>
+		<SimpleData name="postal_code">569185</SimpleData>
+		<SimpleData name="latitude">1.371969</SimpleData>
+		<SimpleData name="longitude">103.85865</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.85865,1.371969</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>DAMAI PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">DAMAI PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">50 BEDOK RESERVOIR CRESCENT</SimpleData>
+		<SimpleData name="postal_code">479225</SimpleData>
+		<SimpleData name="latitude">1.335746</SimpleData>
+		<SimpleData name="longitude">103.920101</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.920101,1.335746</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>DAMAI SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">DAMAI SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">4800 BEDOK RESERVOIR ROAD</SimpleData>
+		<SimpleData name="postal_code">479229</SimpleData>
+		<SimpleData name="latitude">1.336405</SimpleData>
+		<SimpleData name="longitude">103.927061</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.927061,1.336405</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>DAZHONG PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">DAZHONG PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">35 BUKIT BATOK STREET 31</SimpleData>
+		<SimpleData name="postal_code">659441</SimpleData>
+		<SimpleData name="latitude">1.359</SimpleData>
+		<SimpleData name="longitude">103.748528</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.748528,1.359</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>DE LA SALLE SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">DE LA SALLE SCHOOL</SimpleData>
+		<SimpleData name="address">11 Choa Chu Kang St 52</SimpleData>
+		<SimpleData name="postal_code">689285</SimpleData>
+		<SimpleData name="latitude">1.394304</SimpleData>
+		<SimpleData name="longitude">103.743605</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.743605,1.394304</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>DEYI SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">DEYI SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">1 ANG MO KIO STREET 42</SimpleData>
+		<SimpleData name="postal_code">569277</SimpleData>
+		<SimpleData name="latitude">1.365893</SimpleData>
+		<SimpleData name="longitude">103.852329</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.852329,1.365893</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>DUNEARN SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">DUNEARN SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">247 Jalan Boon Lay</SimpleData>
+		<SimpleData name="postal_code">619522</SimpleData>
+		<SimpleData name="latitude">1.341733</SimpleData>
+		<SimpleData name="longitude">103.710177</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.710177,1.341733</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>DUNMAN HIGH SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">DUNMAN HIGH SCHOOL</SimpleData>
+		<SimpleData name="address">10 TANJONG RHU ROAD</SimpleData>
+		<SimpleData name="postal_code">436895</SimpleData>
+		<SimpleData name="latitude">1.29836</SimpleData>
+		<SimpleData name="longitude">103.882979</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.882979,1.29836</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>DUNMAN SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">DUNMAN SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">21 TAMPINES STREET 45</SimpleData>
+		<SimpleData name="postal_code">529093</SimpleData>
+		<SimpleData name="latitude">1.360673</SimpleData>
+		<SimpleData name="longitude">103.956206</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.956206,1.360673</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>EAST COAST PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">EAST COAST PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">8 CHAI CHEE LANE</SimpleData>
+		<SimpleData name="postal_code">469031</SimpleData>
+		<SimpleData name="latitude">1.329372</SimpleData>
+		<SimpleData name="longitude">103.919612</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.919612,1.329372</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>EAST SPRING PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">EAST SPRING PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">31 TAMPINES ST 33</SimpleData>
+		<SimpleData name="postal_code">529258</SimpleData>
+		<SimpleData name="latitude">1.35349</SimpleData>
+		<SimpleData name="longitude">103.961799</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.961799,1.35349</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>EAST SPRING SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">EAST SPRING SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">30 TAMPINES STREET 34</SimpleData>
+		<SimpleData name="postal_code">529231</SimpleData>
+		<SimpleData name="latitude">1.355997</SimpleData>
+		<SimpleData name="longitude">103.960586</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.960586,1.355997</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>EAST VIEW PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">EAST VIEW PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">4 TAMPINES STREET 91</SimpleData>
+		<SimpleData name="postal_code">528907</SimpleData>
+		<SimpleData name="latitude">1.346782</SimpleData>
+		<SimpleData name="longitude">103.939586</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.939586,1.346782</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>EAST VIEW SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">EAST VIEW SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">3 TAMPINES STREET 42</SimpleData>
+		<SimpleData name="postal_code">529177</SimpleData>
+		<SimpleData name="latitude">1.357878</SimpleData>
+		<SimpleData name="longitude">103.949913</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.949913,1.357878</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>EDGEFIELD PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">EDGEFIELD PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">41 EDGEFIELD PLAINS</SimpleData>
+		<SimpleData name="postal_code">828869</SimpleData>
+		<SimpleData name="latitude">1.399887</SimpleData>
+		<SimpleData name="longitude">103.907469</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.907469,1.399887</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>EDGEFIELD SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">EDGEFIELD SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">36 PUNGGOL FIELD</SimpleData>
+		<SimpleData name="postal_code">828814</SimpleData>
+		<SimpleData name="latitude">1.399882</SimpleData>
+		<SimpleData name="longitude">103.902302</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.902302,1.399882</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ELIAS PARK PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ELIAS PARK PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">11 PASIR RIS STREET 52</SimpleData>
+		<SimpleData name="postal_code">518866</SimpleData>
+		<SimpleData name="latitude">1.374697</SimpleData>
+		<SimpleData name="longitude">103.945633</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.945633,1.374697</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ENDEAVOUR PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ENDEAVOUR PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">10 Admiralty Link</SimpleData>
+		<SimpleData name="postal_code">757521</SimpleData>
+		<SimpleData name="latitude">1.454201</SimpleData>
+		<SimpleData name="longitude">103.817423</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.817423,1.454201</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>EUNOS PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">EUNOS PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">95 JALAN EUNOS Eunos Primary School</SimpleData>
+		<SimpleData name="postal_code">419529</SimpleData>
+		<SimpleData name="latitude">1.324223</SimpleData>
+		<SimpleData name="longitude">103.904727</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.904727,1.324223</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>EVERGREEN PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">EVERGREEN PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">31 WOODLANDS CIRCLE</SimpleData>
+		<SimpleData name="postal_code">738908</SimpleData>
+		<SimpleData name="latitude">1.444082</SimpleData>
+		<SimpleData name="longitude">103.795038</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.795038,1.444082</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>EVERGREEN SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">EVERGREEN SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">11 WOODLANDS STREET 83</SimpleData>
+		<SimpleData name="postal_code">738489</SimpleData>
+		<SimpleData name="latitude">1.441283</SimpleData>
+		<SimpleData name="longitude">103.794011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.794011,1.441283</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>FAIRFIELD METHODIST SCHOOL (PRIMARY)</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">FAIRFIELD METHODIST SCHOOL (PRIMARY)</SimpleData>
+		<SimpleData name="address">100 DOVER ROAD</SimpleData>
+		<SimpleData name="postal_code">139648</SimpleData>
+		<SimpleData name="latitude">1.300744</SimpleData>
+		<SimpleData name="longitude">103.785809</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.785809,1.300744</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>FAIRFIELD METHODIST SCHOOL (SECONDARY)</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">FAIRFIELD METHODIST SCHOOL (SECONDARY)</SimpleData>
+		<SimpleData name="address">102 Dover Road Fairfield Methodist Secondary</SimpleData>
+		<SimpleData name="postal_code">139649</SimpleData>
+		<SimpleData name="latitude">1.301925</SimpleData>
+		<SimpleData name="longitude">103.78446</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.78446,1.301925</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>FAJAR SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">FAJAR SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">58 Chestnut Drive</SimpleData>
+		<SimpleData name="postal_code">679301</SimpleData>
+		<SimpleData name="latitude">1.36867</SimpleData>
+		<SimpleData name="longitude">103.770848</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.770848,1.36867</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>FARRER PARK PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">FARRER PARK PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">2 FARRER PARK ROAD</SimpleData>
+		<SimpleData name="postal_code">217567</SimpleData>
+		<SimpleData name="latitude">1.312139</SimpleData>
+		<SimpleData name="longitude">103.850992</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.850992,1.312139</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>FENGSHAN PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">FENGSHAN PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">307 BEDOK NORTH ROAD</SimpleData>
+		<SimpleData name="postal_code">469680</SimpleData>
+		<SimpleData name="latitude">1.329819</SimpleData>
+		<SimpleData name="longitude">103.931902</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.931902,1.329819</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>FERNVALE PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">FERNVALE PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">1 Fernvale Lane</SimpleData>
+		<SimpleData name="postal_code">797701</SimpleData>
+		<SimpleData name="latitude">1.389948</SimpleData>
+		<SimpleData name="longitude">103.873919</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.873919,1.389948</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>FIRST TOA PAYOH PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">FIRST TOA PAYOH PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">7 LORONG 8 TOA PAYOH</SimpleData>
+		<SimpleData name="postal_code">319252</SimpleData>
+		<SimpleData name="latitude">1.340145</SimpleData>
+		<SimpleData name="longitude">103.855651</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.855651,1.340145</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>FRONTIER PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">FRONTIER PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">20 Jurong West Street 61</SimpleData>
+		<SimpleData name="postal_code">648200</SimpleData>
+		<SimpleData name="latitude">1.336581</SimpleData>
+		<SimpleData name="longitude">103.699087</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.699087,1.336581</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>FUCHUN PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">FUCHUN PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">23 WOODLANDS AVENUE 1</SimpleData>
+		<SimpleData name="postal_code">739063</SimpleData>
+		<SimpleData name="latitude">1.4302</SimpleData>
+		<SimpleData name="longitude">103.778088</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.778088,1.4302</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>FUCHUN SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">FUCHUN SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">21 WOODLANDS AVENUE 1</SimpleData>
+		<SimpleData name="postal_code">739062</SimpleData>
+		<SimpleData name="latitude">1.430948</SimpleData>
+		<SimpleData name="longitude">103.777326</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.777326,1.430948</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>FUHUA PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">FUHUA PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">65 JURONG EAST STREET 13</SimpleData>
+		<SimpleData name="postal_code">609647</SimpleData>
+		<SimpleData name="latitude">1.336524</SimpleData>
+		<SimpleData name="longitude">103.736118</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.736118,1.336524</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>FUHUA SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">FUHUA SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">5 JURONG WEST STREET 41</SimpleData>
+		<SimpleData name="postal_code">649410</SimpleData>
+		<SimpleData name="latitude">1.346902</SimpleData>
+		<SimpleData name="longitude">103.726756</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.726756,1.346902</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>GAN ENG SENG PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">GAN ENG SENG PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">100 REDHILL CLOSE</SimpleData>
+		<SimpleData name="postal_code">158901</SimpleData>
+		<SimpleData name="latitude">1.285631</SimpleData>
+		<SimpleData name="longitude">103.815421</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.815421,1.285631</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>GAN ENG SENG SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">GAN ENG SENG SCHOOL</SimpleData>
+		<SimpleData name="address">1 HENDERSON ROAD</SimpleData>
+		<SimpleData name="postal_code">159561</SimpleData>
+		<SimpleData name="latitude">1.289088</SimpleData>
+		<SimpleData name="longitude">103.823727</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.823727,1.289088</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>GEYLANG METHODIST SCHOOL (PRIMARY)</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">GEYLANG METHODIST SCHOOL (PRIMARY)</SimpleData>
+		<SimpleData name="address">4 Geylang East Central</SimpleData>
+		<SimpleData name="postal_code">389706</SimpleData>
+		<SimpleData name="latitude">1.318207</SimpleData>
+		<SimpleData name="longitude">103.88336</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.88336,1.318207</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>GEYLANG METHODIST SCHOOL (SECONDARY)</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">GEYLANG METHODIST SCHOOL (SECONDARY)</SimpleData>
+		<SimpleData name="address">2 GEYLANG EAST CENTRAL</SimpleData>
+		<SimpleData name="postal_code">389705</SimpleData>
+		<SimpleData name="latitude">1.318124</SimpleData>
+		<SimpleData name="longitude">103.8829</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.8829,1.318124</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>GONGSHANG PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">GONGSHANG PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">1 TAMPINES STREET 42</SimpleData>
+		<SimpleData name="postal_code">529176</SimpleData>
+		<SimpleData name="latitude">1.357339</SimpleData>
+		<SimpleData name="longitude">103.948893</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.948893,1.357339</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>GREENDALE PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">GREENDALE PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">50 Edgedale Plains</SimpleData>
+		<SimpleData name="postal_code">828848</SimpleData>
+		<SimpleData name="latitude">1.396421</SimpleData>
+		<SimpleData name="longitude">103.912588</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.912588,1.396421</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>GREENDALE SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">GREENDALE SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">51 EDGEDALE PLAINS</SimpleData>
+		<SimpleData name="postal_code">828866</SimpleData>
+		<SimpleData name="latitude">1.396986</SimpleData>
+		<SimpleData name="longitude">103.911718</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.911718,1.396986</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>GREENRIDGE PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">GREENRIDGE PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">11 JELAPANG ROAD</SimpleData>
+		<SimpleData name="postal_code">677744</SimpleData>
+		<SimpleData name="latitude">1.385851</SimpleData>
+		<SimpleData name="longitude">103.767546</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.767546,1.385851</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>GREENRIDGE SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">GREENRIDGE SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">32 BUKIT PANJANG RING ROAD</SimpleData>
+		<SimpleData name="postal_code">679938</SimpleData>
+		<SimpleData name="latitude">1.38206</SimpleData>
+		<SimpleData name="longitude">103.773836</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.773836,1.38206</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>GREENVIEW SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">GREENVIEW SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">15 PASIR RIS STREET 21</SimpleData>
+		<SimpleData name="postal_code">518969</SimpleData>
+		<SimpleData name="latitude">1.369233</SimpleData>
+		<SimpleData name="longitude">103.962377</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.962377,1.369233</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>GREENWOOD PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">GREENWOOD PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">11 WOODLANDS DR 62</SimpleData>
+		<SimpleData name="postal_code">737942</SimpleData>
+		<SimpleData name="latitude">1.43985</SimpleData>
+		<SimpleData name="longitude">103.804609</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.804609,1.43985</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>GUANGYANG PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">GUANGYANG PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">6 Bishan Street 12</SimpleData>
+		<SimpleData name="postal_code">579806</SimpleData>
+		<SimpleData name="latitude">1.346017</SimpleData>
+		<SimpleData name="longitude">103.849681</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.849681,1.346017</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>GUANGYANG SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">GUANGYANG SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">8 BISHAN STREET 12</SimpleData>
+		<SimpleData name="postal_code">579807</SimpleData>
+		<SimpleData name="latitude">1.344693</SimpleData>
+		<SimpleData name="longitude">103.850566</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.850566,1.344693</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HAI SING CATHOLIC SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">HAI SING CATHOLIC SCHOOL</SimpleData>
+		<SimpleData name="address">9 PASIR RIS DRIVE 6</SimpleData>
+		<SimpleData name="postal_code">519421</SimpleData>
+		<SimpleData name="latitude">1.374513</SimpleData>
+		<SimpleData name="longitude">103.954463</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.954463,1.374513</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HAIG GIRLS' SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">HAIG GIRLS' SCHOOL</SimpleData>
+		<SimpleData name="address">860 NEW UPPER CHANGI ROAD</SimpleData>
+		<SimpleData name="postal_code">467353</SimpleData>
+		<SimpleData name="latitude">1.32368</SimpleData>
+		<SimpleData name="longitude">103.938907</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.938907,1.32368</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HENDERSON SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">HENDERSON SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">100 HENDERSON RD</SimpleData>
+		<SimpleData name="postal_code">159544</SimpleData>
+		<SimpleData name="latitude">1.285033</SimpleData>
+		<SimpleData name="longitude">103.819595</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.819595,1.285033</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HENRY PARK PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">HENRY PARK PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">1 HOLLAND GROVE ROAD</SimpleData>
+		<SimpleData name="postal_code">278790</SimpleData>
+		<SimpleData name="latitude">1.316871</SimpleData>
+		<SimpleData name="longitude">103.784132</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.784132,1.316871</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HILLGROVE SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">HILLGROVE SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">10 BUKIT BATOK STREET 52</SimpleData>
+		<SimpleData name="postal_code">659250</SimpleData>
+		<SimpleData name="latitude">1.352752</SimpleData>
+		<SimpleData name="longitude">103.753048</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.753048,1.352752</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HOLY INNOCENTS' HIGH SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">HOLY INNOCENTS' HIGH SCHOOL</SimpleData>
+		<SimpleData name="address">1191 UPPER SERANGOON ROAD</SimpleData>
+		<SimpleData name="postal_code">534786</SimpleData>
+		<SimpleData name="latitude">1.371204</SimpleData>
+		<SimpleData name="longitude">103.896018</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.896018,1.371204</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HOLY INNOCENTS' PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">HOLY INNOCENTS' PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">5 LORONG LOW KOON Holy Innocents' Primary School</SimpleData>
+		<SimpleData name="postal_code">536451</SimpleData>
+		<SimpleData name="latitude">1.366573</SimpleData>
+		<SimpleData name="longitude">103.893711</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.893711,1.366573</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HONG KAH SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">HONG KAH SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">931 JURONG WEST STREET 42</SimpleData>
+		<SimpleData name="postal_code">649370</SimpleData>
+		<SimpleData name="latitude">1.351759</SimpleData>
+		<SimpleData name="longitude">103.726968</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.726968,1.351759</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HONG WEN SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">HONG WEN SCHOOL</SimpleData>
+		<SimpleData name="address">30 TOWNER ROAD</SimpleData>
+		<SimpleData name="postal_code">327829</SimpleData>
+		<SimpleData name="latitude">1.321704</SimpleData>
+		<SimpleData name="longitude">103.857647</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.857647,1.321704</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HORIZON PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">HORIZON PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">61 Edgedale Plains</SimpleData>
+		<SimpleData name="postal_code">828819</SimpleData>
+		<SimpleData name="latitude">1.400025</SimpleData>
+		<SimpleData name="longitude">103.913058</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.913058,1.400025</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HOUGANG PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">HOUGANG PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">1 HOUGANG ST 93</SimpleData>
+		<SimpleData name="postal_code">534238</SimpleData>
+		<SimpleData name="latitude">1.37734</SimpleData>
+		<SimpleData name="longitude">103.881046</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.881046,1.37734</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HOUGANG SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">HOUGANG SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">2 HOUGANG STREET 93</SimpleData>
+		<SimpleData name="postal_code">534256</SimpleData>
+		<SimpleData name="latitude">1.377661</SimpleData>
+		<SimpleData name="longitude">103.88253</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.88253,1.377661</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HUA YI SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">HUA YI SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">60 JURONG WEST ST 42</SimpleData>
+		<SimpleData name="postal_code">649371</SimpleData>
+		<SimpleData name="latitude">1.351473</SimpleData>
+		<SimpleData name="longitude">103.72158</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.72158,1.351473</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HUAMIN PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">HUAMIN PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">21 YISHUN AVENUE 11</SimpleData>
+		<SimpleData name="postal_code">768857</SimpleData>
+		<SimpleData name="latitude">1.426943</SimpleData>
+		<SimpleData name="longitude">103.843853</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.843853,1.426943</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HWA CHONG INSTITUTION</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">HWA CHONG INSTITUTION</SimpleData>
+		<SimpleData name="address">661 BUKIT TIMAH ROAD</SimpleData>
+		<SimpleData name="postal_code">269734</SimpleData>
+		<SimpleData name="latitude">1.324644</SimpleData>
+		<SimpleData name="longitude">103.8059</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.8059,1.324644</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>INNOVA JUNIOR COLLEGE</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">INNOVA JUNIOR COLLEGE</SimpleData>
+		<SimpleData name="address">21 Champions Way</SimpleData>
+		<SimpleData name="postal_code">737902</SimpleData>
+		<SimpleData name="latitude">1.429201</SimpleData>
+		<SimpleData name="longitude">103.788334</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.788334,1.429201</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>INNOVA PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">INNOVA PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">80 Woodlands Drive 17</SimpleData>
+		<SimpleData name="postal_code">737888</SimpleData>
+		<SimpleData name="latitude">1.428957</SimpleData>
+		<SimpleData name="longitude">103.790631</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.790631,1.428957</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>JIEMIN PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">JIEMIN PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">2 YISHUN STREET 71</SimpleData>
+		<SimpleData name="postal_code">768515</SimpleData>
+		<SimpleData name="latitude">1.427671</SimpleData>
+		<SimpleData name="longitude">103.830498</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.830498,1.427671</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>JING SHAN PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">JING SHAN PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">5 ANG MO KIO ST 52</SimpleData>
+		<SimpleData name="postal_code">569228</SimpleData>
+		<SimpleData name="latitude">1.371479</SimpleData>
+		<SimpleData name="longitude">103.851863</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.851863,1.371479</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>JUNYUAN PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">JUNYUAN PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">2 Tampines Street 91</SimpleData>
+		<SimpleData name="postal_code">528906</SimpleData>
+		<SimpleData name="latitude">1.347973</SimpleData>
+		<SimpleData name="longitude">103.940012</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.940012,1.347973</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>JUNYUAN SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">JUNYUAN SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">11 TAMPINES STREET 84</SimpleData>
+		<SimpleData name="postal_code">528933</SimpleData>
+		<SimpleData name="latitude">1.353327</SimpleData>
+		<SimpleData name="longitude">103.933573</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.933573,1.353327</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>JURONG JUNIOR COLLEGE</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">JURONG JUNIOR COLLEGE</SimpleData>
+		<SimpleData name="address">800 CORPORATION ROAD</SimpleData>
+		<SimpleData name="postal_code">649809</SimpleData>
+		<SimpleData name="latitude">1.350886</SimpleData>
+		<SimpleData name="longitude">103.713267</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.713267,1.350886</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>JURONG PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">JURONG PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">320 JURONG EAST Street 32</SimpleData>
+		<SimpleData name="postal_code">609476</SimpleData>
+		<SimpleData name="latitude">1.348679</SimpleData>
+		<SimpleData name="longitude">103.732992</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.732992,1.348679</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>JURONG SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">JURONG SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">31 YUAN CHING ROAD</SimpleData>
+		<SimpleData name="postal_code">618652</SimpleData>
+		<SimpleData name="latitude">1.330365</SimpleData>
+		<SimpleData name="longitude">103.724282</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.724282,1.330365</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>JURONG WEST PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">JURONG WEST PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">30 JURONG WEST ST 61</SimpleData>
+		<SimpleData name="postal_code">648368</SimpleData>
+		<SimpleData name="latitude">1.339037</SimpleData>
+		<SimpleData name="longitude">103.698854</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.698854,1.339037</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>JURONG WEST SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">JURONG WEST SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">61 JURONG WEST STREET 65</SimpleData>
+		<SimpleData name="postal_code">648348</SimpleData>
+		<SimpleData name="latitude">1.335276</SimpleData>
+		<SimpleData name="longitude">103.702086</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.702086,1.335276</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>JURONGVILLE SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">JURONGVILLE SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">202 JURONG EAST AVENUE 1</SimpleData>
+		<SimpleData name="postal_code">609790</SimpleData>
+		<SimpleData name="latitude">1.351493</SimpleData>
+		<SimpleData name="longitude">103.729161</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.729161,1.351493</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>JUYING PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">JUYING PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">31 JURONG WEST STREET 91</SimpleData>
+		<SimpleData name="postal_code">649037</SimpleData>
+		<SimpleData name="latitude">1.33837</SimpleData>
+		<SimpleData name="longitude">103.688061</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.688061,1.33837</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>JUYING SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">JUYING SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">33 JURONG WEST STREET 91</SimpleData>
+		<SimpleData name="postal_code">649038</SimpleData>
+		<SimpleData name="latitude">1.338205</SimpleData>
+		<SimpleData name="longitude">103.687205</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.687205,1.338205</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>KEMING PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">KEMING PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">90 BUKIT BATOK EAST AVENUE 6</SimpleData>
+		<SimpleData name="postal_code">659762</SimpleData>
+		<SimpleData name="latitude">1.344781</SimpleData>
+		<SimpleData name="longitude">103.756511</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.756511,1.344781</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>KENT RIDGE SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">KENT RIDGE SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">147 WEST COAST ROAD</SimpleData>
+		<SimpleData name="postal_code">127368</SimpleData>
+		<SimpleData name="latitude">1.301511</SimpleData>
+		<SimpleData name="longitude">103.765385</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.765385,1.301511</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>KHENG CHENG SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">KHENG CHENG SCHOOL</SimpleData>
+		<SimpleData name="address">15 LORONG 3 TOA PAYOH</SimpleData>
+		<SimpleData name="postal_code">319580</SimpleData>
+		<SimpleData name="latitude">1.337666</SimpleData>
+		<SimpleData name="longitude">103.847796</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.847796,1.337666</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>KONG HWA SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">KONG HWA SCHOOL</SimpleData>
+		<SimpleData name="address">350 GUILLEMARD ROAD</SimpleData>
+		<SimpleData name="postal_code">399772</SimpleData>
+		<SimpleData name="latitude">1.311292</SimpleData>
+		<SimpleData name="longitude">103.888386</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.888386,1.311292</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>KRANJI PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">KRANJI PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">11 CHOA CHU KANG STREET 54</SimpleData>
+		<SimpleData name="postal_code">689189</SimpleData>
+		<SimpleData name="latitude">1.393694</SimpleData>
+		<SimpleData name="longitude">103.747785</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.747785,1.393694</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>KRANJI SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">KRANJI SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">61 CHOA CHU KANG STREET 51</SimpleData>
+		<SimpleData name="postal_code">689333</SimpleData>
+		<SimpleData name="latitude">1.390468</SimpleData>
+		<SimpleData name="longitude">103.741661</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.741661,1.390468</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>KUO CHUAN PRESBYTERIAN PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">KUO CHUAN PRESBYTERIAN PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">8 BISHAN STREET 13</SimpleData>
+		<SimpleData name="postal_code">579793</SimpleData>
+		<SimpleData name="latitude">1.349116</SimpleData>
+		<SimpleData name="longitude">103.854727</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.854727,1.349116</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>KUO CHUAN PRESBYTERIAN SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">KUO CHUAN PRESBYTERIAN SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">10 BISHAN STREET 13</SimpleData>
+		<SimpleData name="postal_code">579795</SimpleData>
+		<SimpleData name="latitude">1.350135</SimpleData>
+		<SimpleData name="longitude">103.854907</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.854907,1.350135</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>LAKESIDE PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">LAKESIDE PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">161 Corporation Walk</SimpleData>
+		<SimpleData name="postal_code">618310</SimpleData>
+		<SimpleData name="latitude">1.338216</SimpleData>
+		<SimpleData name="longitude">103.717603</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.717603,1.338216</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>LIANHUA PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">LIANHUA PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">2 BUKIT BATOK STREET 52</SimpleData>
+		<SimpleData name="postal_code">659243</SimpleData>
+		<SimpleData name="latitude">1.354143</SimpleData>
+		<SimpleData name="longitude">103.754202</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.754202,1.354143</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>LOYANG PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">LOYANG PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">3 PASIR RIS DRIVE 6</SimpleData>
+		<SimpleData name="postal_code">519419</SimpleData>
+		<SimpleData name="latitude">1.370648</SimpleData>
+		<SimpleData name="longitude">103.955936</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.955936,1.370648</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>LOYANG SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">LOYANG SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">12 PASIR RIS STREET 11</SimpleData>
+		<SimpleData name="postal_code">519073</SimpleData>
+		<SimpleData name="latitude">1.366972</SimpleData>
+		<SimpleData name="longitude">103.956826</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.956826,1.366972</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>MACPHERSON PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">MACPHERSON PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">2 MATTAR ROAD</SimpleData>
+		<SimpleData name="postal_code">387724</SimpleData>
+		<SimpleData name="latitude">1.324557</SimpleData>
+		<SimpleData name="longitude">103.881618</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.881618,1.324557</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>MACPHERSON SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">MACPHERSON SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">121 CIRCUIT ROAD</SimpleData>
+		<SimpleData name="postal_code">379499</SimpleData>
+		<SimpleData name="latitude">1.327133</SimpleData>
+		<SimpleData name="longitude">103.888668</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.888668,1.327133</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>MAHA BODHI SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">MAHA BODHI SCHOOL</SimpleData>
+		<SimpleData name="address">10 UBI AVENUE 1</SimpleData>
+		<SimpleData name="postal_code">408931</SimpleData>
+		<SimpleData name="latitude">1.329011</SimpleData>
+		<SimpleData name="longitude">103.901381</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.901381,1.329011</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>MANJUSRI SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">MANJUSRI SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">20 UBI AVENUE 1</SimpleData>
+		<SimpleData name="postal_code">408940</SimpleData>
+		<SimpleData name="latitude">1.327215</SimpleData>
+		<SimpleData name="longitude">103.901803</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.901803,1.327215</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>MARIS STELLA HIGH SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">MARIS STELLA HIGH SCHOOL</SimpleData>
+		<SimpleData name="address">25 MOUNT VERNON ROAD</SimpleData>
+		<SimpleData name="postal_code">368051</SimpleData>
+		<SimpleData name="latitude">1.341737</SimpleData>
+		<SimpleData name="longitude">103.878284</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.878284,1.341737</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>MARSILING PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">MARSILING PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">31 WOODLANDS CENTRE ROAD</SimpleData>
+		<SimpleData name="postal_code">738927</SimpleData>
+		<SimpleData name="latitude">1.433827</SimpleData>
+		<SimpleData name="longitude">103.773663</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.773663,1.433827</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>MARSILING SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">MARSILING SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">12 MARSILING ROAD</SimpleData>
+		<SimpleData name="postal_code">739110</SimpleData>
+		<SimpleData name="latitude">1.436669</SimpleData>
+		<SimpleData name="longitude">103.775995</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.775995,1.436669</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>MARYMOUNT CONVENT SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">MARYMOUNT CONVENT SCHOOL</SimpleData>
+		<SimpleData name="address">430 Lorong 1 Toa Payoh</SimpleData>
+		<SimpleData name="postal_code">319759</SimpleData>
+		<SimpleData name="latitude">1.340196</SimpleData>
+		<SimpleData name="longitude">103.843209</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.843209,1.340196</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>MAYFLOWER PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">MAYFLOWER PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">200 ANG MO KIO AVE 5</SimpleData>
+		<SimpleData name="postal_code">569878</SimpleData>
+		<SimpleData name="latitude">1.376395</SimpleData>
+		<SimpleData name="longitude">103.843181</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.843181,1.376395</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>MAYFLOWER SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">MAYFLOWER SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">2 ANG MO KIO STREET 21</SimpleData>
+		<SimpleData name="postal_code">569384</SimpleData>
+		<SimpleData name="latitude">1.368331</SimpleData>
+		<SimpleData name="longitude">103.835438</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.835438,1.368331</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>MEE TOH SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">MEE TOH SCHOOL</SimpleData>
+		<SimpleData name="address">21 EDGEDALE PLAINS</SimpleData>
+		<SimpleData name="postal_code">828867</SimpleData>
+		<SimpleData name="latitude">1.394828</SimpleData>
+		<SimpleData name="longitude">103.90904</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.90904,1.394828</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>MERIDIAN JUNIOR COLLEGE</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">MERIDIAN JUNIOR COLLEGE</SimpleData>
+		<SimpleData name="address">21 Pasir Ris Street 71</SimpleData>
+		<SimpleData name="postal_code">518799</SimpleData>
+		<SimpleData name="latitude">1.376067</SimpleData>
+		<SimpleData name="longitude">103.937002</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.937002,1.376067</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>MERIDIAN PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">MERIDIAN PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">20 PASIR RIS ST 71</SimpleData>
+		<SimpleData name="postal_code">518798</SimpleData>
+		<SimpleData name="latitude">1.375781</SimpleData>
+		<SimpleData name="longitude">103.935197</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.935197,1.375781</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>METHODIST GIRLS' SCHOOL (PRIMARY)</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">METHODIST GIRLS' SCHOOL (PRIMARY)</SimpleData>
+		<SimpleData name="address">11 Blackmore Drive</SimpleData>
+		<SimpleData name="postal_code">599986</SimpleData>
+		<SimpleData name="latitude">1.332954</SimpleData>
+		<SimpleData name="longitude">103.782566</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.782566,1.332954</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>METHODIST GIRLS' SCHOOL (SECONDARY)</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">METHODIST GIRLS' SCHOOL (SECONDARY)</SimpleData>
+		<SimpleData name="address">11 BLACKMORE DRIVE</SimpleData>
+		<SimpleData name="postal_code">599986</SimpleData>
+		<SimpleData name="latitude">1.332954</SimpleData>
+		<SimpleData name="longitude">103.782566</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.782566,1.332954</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>MILLENNIA INSTITUTE</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">MILLENNIA INSTITUTE</SimpleData>
+		<SimpleData name="address">60 Bukit Batok West Avenue 8</SimpleData>
+		<SimpleData name="postal_code">658965</SimpleData>
+		<SimpleData name="latitude">1.350343</SimpleData>
+		<SimpleData name="longitude">103.741592</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.741592,1.350343</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>MONTFORT JUNIOR SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">MONTFORT JUNIOR SCHOOL</SimpleData>
+		<SimpleData name="address">52 HOUGANG AVENUE 8</SimpleData>
+		<SimpleData name="postal_code">538786</SimpleData>
+		<SimpleData name="latitude">1.373864</SimpleData>
+		<SimpleData name="longitude">103.889614</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.889614,1.373864</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>MONTFORT SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">MONTFORT SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">50 HOUGANG AVENUE 8</SimpleData>
+		<SimpleData name="postal_code">538785</SimpleData>
+		<SimpleData name="latitude">1.373518</SimpleData>
+		<SimpleData name="longitude">103.888992</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.888992,1.373518</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NAN CHIAU HIGH SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">NAN CHIAU HIGH SCHOOL</SimpleData>
+		<SimpleData name="address">20 ANCHORVALE LINK</SimpleData>
+		<SimpleData name="postal_code">545079</SimpleData>
+		<SimpleData name="latitude">1.388713</SimpleData>
+		<SimpleData name="longitude">103.890283</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.890283,1.388713</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NAN CHIAU PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">NAN CHIAU PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">50 ANCHORVALE LINK</SimpleData>
+		<SimpleData name="postal_code">545080</SimpleData>
+		<SimpleData name="latitude">1.391841</SimpleData>
+		<SimpleData name="longitude">103.890834</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.890834,1.391841</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NAN HUA HIGH SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">NAN HUA HIGH SCHOOL</SimpleData>
+		<SimpleData name="address">41 CLEMENTI AVENUE 1</SimpleData>
+		<SimpleData name="postal_code">129956</SimpleData>
+		<SimpleData name="latitude">1.30807</SimpleData>
+		<SimpleData name="longitude">103.769189</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.769189,1.30807</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NAN HUA PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">NAN HUA PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">30 JALAN LEMPENG</SimpleData>
+		<SimpleData name="postal_code">128806</SimpleData>
+		<SimpleData name="latitude">1.319799</SimpleData>
+		<SimpleData name="longitude">103.761213</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.761213,1.319799</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NANYANG GIRLS' HIGH SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">NANYANG GIRLS' HIGH SCHOOL</SimpleData>
+		<SimpleData name="address">2 LINDEN DRIVE</SimpleData>
+		<SimpleData name="postal_code">288683</SimpleData>
+		<SimpleData name="latitude">1.330651</SimpleData>
+		<SimpleData name="longitude">103.802221</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.802221,1.330651</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NANYANG JUNIOR COLLEGE</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">NANYANG JUNIOR COLLEGE</SimpleData>
+		<SimpleData name="address">128 SERANGOON AVENUE 3</SimpleData>
+		<SimpleData name="postal_code">556111</SimpleData>
+		<SimpleData name="latitude">1.350297</SimpleData>
+		<SimpleData name="longitude">103.866494</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.866494,1.350297</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NANYANG PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">NANYANG PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">52 KING'S ROAD</SimpleData>
+		<SimpleData name="postal_code">268097</SimpleData>
+		<SimpleData name="latitude">1.320943</SimpleData>
+		<SimpleData name="longitude">103.808147</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.808147,1.320943</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NATIONAL JUNIOR COLLEGE</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">NATIONAL JUNIOR COLLEGE</SimpleData>
+		<SimpleData name="address">37 HILLCREST ROAD</SimpleData>
+		<SimpleData name="postal_code">288913</SimpleData>
+		<SimpleData name="latitude">1.329973</SimpleData>
+		<SimpleData name="longitude">103.804488</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.804488,1.329973</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NAVAL BASE PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">NAVAL BASE PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">7 YISHUN AVE 4</SimpleData>
+		<SimpleData name="postal_code">769028</SimpleData>
+		<SimpleData name="latitude">1.416055</SimpleData>
+		<SimpleData name="longitude">103.839091</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.839091,1.416055</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NAVAL BASE SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">NAVAL BASE SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">901 YISHUN RING ROAD</SimpleData>
+		<SimpleData name="postal_code">768689</SimpleData>
+		<SimpleData name="latitude">1.41924</SimpleData>
+		<SimpleData name="longitude">103.831032</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.831032,1.41924</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NEW TOWN PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">NEW TOWN PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">300 Tanglin Halt Road</SimpleData>
+		<SimpleData name="postal_code">148812</SimpleData>
+		<SimpleData name="latitude">1.299825</SimpleData>
+		<SimpleData name="longitude">103.799953</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.799953,1.299825</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NEW TOWN SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">NEW TOWN SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">1020 DOVER ROAD</SimpleData>
+		<SimpleData name="postal_code">139657</SimpleData>
+		<SimpleData name="latitude">1.30915</SimpleData>
+		<SimpleData name="longitude">103.773605</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.773605,1.30915</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NGEE ANN PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">NGEE ANN PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">344 MARINE TERRACE</SimpleData>
+		<SimpleData name="postal_code">449149</SimpleData>
+		<SimpleData name="latitude">1.305526</SimpleData>
+		<SimpleData name="longitude">103.917371</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.917371,1.305526</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NGEE ANN SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">NGEE ANN SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">1 TAMPINES STREET 32</SimpleData>
+		<SimpleData name="postal_code">529283</SimpleData>
+		<SimpleData name="latitude">1.354061</SimpleData>
+		<SimpleData name="longitude">103.956972</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.956972,1.354061</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NORTH SPRING PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">NORTH SPRING PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">1 RIVERVALE STREET</SimpleData>
+		<SimpleData name="postal_code">545088</SimpleData>
+		<SimpleData name="latitude">1.386881</SimpleData>
+		<SimpleData name="longitude">103.903609</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.903609,1.386881</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NORTH VIEW PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">NORTH VIEW PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">210 YISHUN AVENUE 6</SimpleData>
+		<SimpleData name="postal_code">768960</SimpleData>
+		<SimpleData name="latitude">1.427616</SimpleData>
+		<SimpleData name="longitude">103.848313</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.848313,1.427616</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NORTH VIEW SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">NORTH VIEW SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">530 YISHUN RING ROAD</SimpleData>
+		<SimpleData name="postal_code">768680</SimpleData>
+		<SimpleData name="latitude">1.427923</SimpleData>
+		<SimpleData name="longitude">103.844727</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.844727,1.427923</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NORTH VISTA PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">NORTH VISTA PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">20 Compassvale Link</SimpleData>
+		<SimpleData name="postal_code">544974</SimpleData>
+		<SimpleData name="latitude">1.382913</SimpleData>
+		<SimpleData name="longitude">103.89588</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.89588,1.382913</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NORTH VISTA SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">NORTH VISTA SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">11 RIVERVALE LINK</SimpleData>
+		<SimpleData name="postal_code">545081</SimpleData>
+		<SimpleData name="latitude">1.381017</SimpleData>
+		<SimpleData name="longitude">103.899463</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.899463,1.381017</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NORTHBROOKS SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">NORTHBROOKS SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">585 YISHUN RING ROAD</SimpleData>
+		<SimpleData name="postal_code">768692</SimpleData>
+		<SimpleData name="latitude">1.421082</SimpleData>
+		<SimpleData name="longitude">103.845179</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.845179,1.421082</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NORTHLAND PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">NORTHLAND PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">15 YISHUN AVENUE 4</SimpleData>
+		<SimpleData name="postal_code">769026</SimpleData>
+		<SimpleData name="latitude">1.420935</SimpleData>
+		<SimpleData name="longitude">103.840768</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.840768,1.420935</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NORTHLAND SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">NORTHLAND SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">3 YISHUN STREET 22</SimpleData>
+		<SimpleData name="postal_code">768578</SimpleData>
+		<SimpleData name="latitude">1.435827</SimpleData>
+		<SimpleData name="longitude">103.840098</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.840098,1.435827</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NORTHLIGHT SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">NORTHLIGHT SCHOOL</SimpleData>
+		<SimpleData name="address">151 Towner Road</SimpleData>
+		<SimpleData name="postal_code">327830</SimpleData>
+		<SimpleData name="latitude">1.320759</SimpleData>
+		<SimpleData name="longitude">103.857696</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.857696,1.320759</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NORTHOAKS PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">NORTHOAKS PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">61 Sembawang Drive</SimpleData>
+		<SimpleData name="postal_code">757622</SimpleData>
+		<SimpleData name="latitude">1.456638</SimpleData>
+		<SimpleData name="longitude">103.813826</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.813826,1.456638</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NUS HIGH SCHOOL OF MATHEMATICS AND SCIENCE</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">NUS HIGH SCHOOL OF MATHEMATICS AND SCIENCE</SimpleData>
+		<SimpleData name="address">20 Clementi Avenue 1</SimpleData>
+		<SimpleData name="postal_code">129957</SimpleData>
+		<SimpleData name="latitude">1.307227</SimpleData>
+		<SimpleData name="longitude">103.769412</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.769412,1.307227</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>OASIS PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">OASIS PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">71 Edgefield Plains</SimpleData>
+		<SimpleData name="postal_code">828716</SimpleData>
+		<SimpleData name="latitude">1.404288</SimpleData>
+		<SimpleData name="longitude">103.910962</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.910962,1.404288</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>OPERA ESTATE PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">OPERA ESTATE PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">48 FIDELIO STREET</SimpleData>
+		<SimpleData name="postal_code">458436</SimpleData>
+		<SimpleData name="latitude">1.319773</SimpleData>
+		<SimpleData name="longitude">103.923725</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.923725,1.319773</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ORCHID PARK SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ORCHID PARK SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">10 YISHUN STREET 81</SimpleData>
+		<SimpleData name="postal_code">768454</SimpleData>
+		<SimpleData name="latitude">1.414902</SimpleData>
+		<SimpleData name="longitude">103.83835</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.83835,1.414902</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>OUTRAM SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">OUTRAM SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">3 YORK HILL</SimpleData>
+		<SimpleData name="postal_code">168622</SimpleData>
+		<SimpleData name="latitude">1.286507</SimpleData>
+		<SimpleData name="longitude">103.837091</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.837091,1.286507</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PALM VIEW PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">PALM VIEW PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">150 Compassvale Bow</SimpleData>
+		<SimpleData name="postal_code">544822</SimpleData>
+		<SimpleData name="latitude">1.383744</SimpleData>
+		<SimpleData name="longitude">103.890527</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.890527,1.383744</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PARK VIEW PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">PARK VIEW PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">60 PASIR RIS DRIVE 1</SimpleData>
+		<SimpleData name="postal_code">519524</SimpleData>
+		<SimpleData name="latitude">1.377331</SimpleData>
+		<SimpleData name="longitude">103.939371</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.939371,1.377331</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PASIR RIS CREST SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">PASIR RIS CREST SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">11 PASIR RIS STREET 41</SimpleData>
+		<SimpleData name="postal_code">518934</SimpleData>
+		<SimpleData name="latitude">1.372334</SimpleData>
+		<SimpleData name="longitude">103.959377</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.959377,1.372334</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PASIR RIS PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">PASIR RIS PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">5 PASIR RIS STREET 21</SimpleData>
+		<SimpleData name="postal_code">518968</SimpleData>
+		<SimpleData name="latitude">1.372305</SimpleData>
+		<SimpleData name="longitude">103.962479</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.962479,1.372305</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PASIR RIS SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">PASIR RIS SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">390 TAMPINES STREET 21</SimpleData>
+		<SimpleData name="postal_code">529400</SimpleData>
+		<SimpleData name="latitude">1.354805</SimpleData>
+		<SimpleData name="longitude">103.948043</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.948043,1.354805</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PAYA LEBAR METHODIST GIRLS' SCHOOL (PRIMARY)</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">PAYA LEBAR METHODIST GIRLS' SCHOOL (PRIMARY)</SimpleData>
+		<SimpleData name="address">298 LORONG AH SOO</SimpleData>
+		<SimpleData name="postal_code">536741</SimpleData>
+		<SimpleData name="latitude">1.351003</SimpleData>
+		<SimpleData name="longitude">103.884813</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.884813,1.351003</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PAYA LEBAR METHODIST GIRLS' SCHOOL (SECONDARY)</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">PAYA LEBAR METHODIST GIRLS' SCHOOL (SECONDARY)</SimpleData>
+		<SimpleData name="address">296 LOR AH SOO</SimpleData>
+		<SimpleData name="postal_code">536742</SimpleData>
+		<SimpleData name="latitude">1.350731</SimpleData>
+		<SimpleData name="longitude">103.885565</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.885565,1.350731</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PEI CHUN PUBLIC SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">PEI CHUN PUBLIC SCHOOL</SimpleData>
+		<SimpleData name="address">16 TOA PAYOH LORONG 7</SimpleData>
+		<SimpleData name="postal_code">319320</SimpleData>
+		<SimpleData name="latitude">1.337371</SimpleData>
+		<SimpleData name="longitude">103.85482</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.85482,1.337371</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PEI HWA PRESBYTERIAN PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">PEI HWA PRESBYTERIAN PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">7 PEI WAH AVENUE</SimpleData>
+		<SimpleData name="postal_code">597610</SimpleData>
+		<SimpleData name="latitude">1.338081</SimpleData>
+		<SimpleData name="longitude">103.77613</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.77613,1.338081</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PEI HWA SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">PEI HWA SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">21 FERNVALE LINK</SimpleData>
+		<SimpleData name="postal_code">797702</SimpleData>
+		<SimpleData name="latitude">1.390273</SimpleData>
+		<SimpleData name="longitude">103.878474</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.878474,1.390273</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PEI TONG PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">PEI TONG PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">15 CLEMENTI AVENUE 5</SimpleData>
+		<SimpleData name="postal_code">129857</SimpleData>
+		<SimpleData name="latitude">1.315889</SimpleData>
+		<SimpleData name="longitude">103.767747</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.767747,1.315889</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PEICAI SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">PEICAI SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">10 SERANGOON AVENUE 4</SimpleData>
+		<SimpleData name="postal_code">556094</SimpleData>
+		<SimpleData name="latitude">1.3587</SimpleData>
+		<SimpleData name="longitude">103.870667</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.870667,1.3587</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PEIRCE SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">PEIRCE SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">10 SIN MING WALK</SimpleData>
+		<SimpleData name="postal_code">575566</SimpleData>
+		<SimpleData name="latitude">1.36613</SimpleData>
+		<SimpleData name="longitude">103.829903</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.829903,1.36613</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PEIYING PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">PEIYING PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">651 YISHUN RING ROAD</SimpleData>
+		<SimpleData name="postal_code">768687</SimpleData>
+		<SimpleData name="latitude">1.417009</SimpleData>
+		<SimpleData name="longitude">103.830256</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.830256,1.417009</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PING YI SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">PING YI SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">61 CHAI CHEE STREET</SimpleData>
+		<SimpleData name="postal_code">468980</SimpleData>
+		<SimpleData name="latitude">1.326674</SimpleData>
+		<SimpleData name="longitude">103.920663</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.920663,1.326674</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PIONEER JUNIOR COLLEGE</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">PIONEER JUNIOR COLLEGE</SimpleData>
+		<SimpleData name="address">21 Teck Whye Walk</SimpleData>
+		<SimpleData name="postal_code">688258</SimpleData>
+		<SimpleData name="latitude">1.384627</SimpleData>
+		<SimpleData name="longitude">103.753951</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.753951,1.384627</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PIONEER PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">PIONEER PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">23 JURONG WEST STREET 81</SimpleData>
+		<SimpleData name="postal_code">649076</SimpleData>
+		<SimpleData name="latitude">1.348486</SimpleData>
+		<SimpleData name="longitude">103.694609</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.694609,1.348486</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PIONEER SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">PIONEER SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">21 JURONG WEST STREET 81</SimpleData>
+		<SimpleData name="postal_code">649075</SimpleData>
+		<SimpleData name="latitude">1.347373</SimpleData>
+		<SimpleData name="longitude">103.694576</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.694576,1.347373</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>POI CHING SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">POI CHING SCHOOL</SimpleData>
+		<SimpleData name="address">21 TAMPINES STREET 71</SimpleData>
+		<SimpleData name="postal_code">529067</SimpleData>
+		<SimpleData name="latitude">1.3582</SimpleData>
+		<SimpleData name="longitude">103.935299</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.935299,1.3582</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PRESBYTERIAN HIGH SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">PRESBYTERIAN HIGH SCHOOL</SimpleData>
+		<SimpleData name="address">5209 ANG MO KIO AVENUE 6</SimpleData>
+		<SimpleData name="postal_code">569845</SimpleData>
+		<SimpleData name="latitude">1.382254</SimpleData>
+		<SimpleData name="longitude">103.8431</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.8431,1.382254</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PRINCESS ELIZABETH PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">PRINCESS ELIZABETH PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">30 BUKIT BATOK WEST AVENUE 3</SimpleData>
+		<SimpleData name="postal_code">659163</SimpleData>
+		<SimpleData name="latitude">1.349481</SimpleData>
+		<SimpleData name="longitude">103.74102</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.74102,1.349481</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PUNGGOL COVE PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">PUNGGOL COVE PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">52 Sumang Walk</SimpleData>
+		<SimpleData name="postal_code">828674</SimpleData>
+		<SimpleData name="latitude">1.408664</SimpleData>
+		<SimpleData name="longitude">103.896275</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.896275,1.408664</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PUNGGOL GREEN PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">PUNGGOL GREEN PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">98 Punggol Walk</SimpleData>
+		<SimpleData name="postal_code">828772</SimpleData>
+		<SimpleData name="latitude">1.401325</SimpleData>
+		<SimpleData name="longitude">103.897737</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.897737,1.401325</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PUNGGOL PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">PUNGGOL PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">61 HOUGANG AVENUE 8</SimpleData>
+		<SimpleData name="postal_code">538787</SimpleData>
+		<SimpleData name="latitude">1.37819</SimpleData>
+		<SimpleData name="longitude">103.894746</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.894746,1.37819</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PUNGGOL SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">PUNGGOL SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">51 EDGEFIELD PLAINS</SimpleData>
+		<SimpleData name="postal_code">828870</SimpleData>
+		<SimpleData name="latitude">1.402069</SimpleData>
+		<SimpleData name="longitude">103.909443</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.909443,1.402069</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PUNGGOL VIEW PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">PUNGGOL VIEW PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">9 Punggol Place</SimpleData>
+		<SimpleData name="postal_code">828845</SimpleData>
+		<SimpleData name="latitude">1.405297</SimpleData>
+		<SimpleData name="longitude">103.90518</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.90518,1.405297</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>QIFA PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">QIFA PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">50 WEST COAST AVENUE</SimpleData>
+		<SimpleData name="postal_code">128104</SimpleData>
+		<SimpleData name="latitude">1.312805</SimpleData>
+		<SimpleData name="longitude">103.757141</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.757141,1.312805</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>QIHUA PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">QIHUA PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">5 WOODLANDS STREET 81</SimpleData>
+		<SimpleData name="postal_code">738525</SimpleData>
+		<SimpleData name="latitude">1.442105</SimpleData>
+		<SimpleData name="longitude">103.788557</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.788557,1.442105</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>QUEENSTOWN PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">QUEENSTOWN PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">310 MARGARET DR</SimpleData>
+		<SimpleData name="postal_code">149303</SimpleData>
+		<SimpleData name="latitude">1.296349</SimpleData>
+		<SimpleData name="longitude">103.807958</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.807958,1.296349</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>QUEENSTOWN SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">QUEENSTOWN SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">1 STRATHMORE ROAD</SimpleData>
+		<SimpleData name="postal_code">148800</SimpleData>
+		<SimpleData name="latitude">1.293467</SimpleData>
+		<SimpleData name="longitude">103.812874</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.812874,1.293467</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>QUEENSWAY SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">QUEENSWAY SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">2A MARGARET DRIVE</SimpleData>
+		<SimpleData name="postal_code">149295</SimpleData>
+		<SimpleData name="latitude">1.300681</SimpleData>
+		<SimpleData name="longitude">103.801857</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.801857,1.300681</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RADIN MAS PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">RADIN MAS PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">1 BUKIT PURMEI AVENUE</SimpleData>
+		<SimpleData name="postal_code">99840</SimpleData>
+		<SimpleData name="latitude">1.275244</SimpleData>
+		<SimpleData name="longitude">103.824119</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.824119,1.275244</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RAFFLES GIRLS' PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">RAFFLES GIRLS' PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">21 Hillcrest Road</SimpleData>
+		<SimpleData name="postal_code">289072</SimpleData>
+		<SimpleData name="latitude">1.330302</SimpleData>
+		<SimpleData name="longitude">103.806788</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.806788,1.330302</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RAFFLES GIRLS' SCHOOL (SECONDARY)</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">RAFFLES GIRLS' SCHOOL (SECONDARY)</SimpleData>
+		<SimpleData name="address">20 ANDERSON ROAD</SimpleData>
+		<SimpleData name="postal_code">259978</SimpleData>
+		<SimpleData name="latitude">1.31172</SimpleData>
+		<SimpleData name="longitude">103.828974</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.828974,1.31172</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RAFFLES INSTITUTION</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">RAFFLES INSTITUTION</SimpleData>
+		<SimpleData name="address">1 RAFFLES INSTITUTION LANE</SimpleData>
+		<SimpleData name="postal_code">575954</SimpleData>
+		<SimpleData name="latitude">1.345712</SimpleData>
+		<SimpleData name="longitude">103.845871</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.845871,1.345712</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RED SWASTIKA SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">RED SWASTIKA SCHOOL</SimpleData>
+		<SimpleData name="address">350 BEDOK NORTH AVENUE 3</SimpleData>
+		<SimpleData name="postal_code">469719</SimpleData>
+		<SimpleData name="latitude">1.333361</SimpleData>
+		<SimpleData name="longitude">103.934605</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.934605,1.333361</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>REGENT SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">REGENT SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">50 CHOA CHU KANG NORTH 5</SimpleData>
+		<SimpleData name="postal_code">689621</SimpleData>
+		<SimpleData name="latitude">1.393079</SimpleData>
+		<SimpleData name="longitude">103.750966</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.750966,1.393079</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RIVER VALLEY HIGH SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">RIVER VALLEY HIGH SCHOOL</SimpleData>
+		<SimpleData name="address">6 BOON LAY AVENUE</SimpleData>
+		<SimpleData name="postal_code">649961</SimpleData>
+		<SimpleData name="latitude">1.343172</SimpleData>
+		<SimpleData name="longitude">103.70949</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.70949,1.343172</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RIVER VALLEY PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">RIVER VALLEY PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">2 RIVER VALLEY GREEN</SimpleData>
+		<SimpleData name="postal_code">237993</SimpleData>
+		<SimpleData name="latitude">1.294206</SimpleData>
+		<SimpleData name="longitude">103.836008</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.836008,1.294206</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RIVERSIDE PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">RIVERSIDE PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">110 Woodlands Crescent</SimpleData>
+		<SimpleData name="postal_code">737803</SimpleData>
+		<SimpleData name="latitude">1.444971</SimpleData>
+		<SimpleData name="longitude">103.804651</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.804651,1.444971</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RIVERSIDE SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">RIVERSIDE SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">3 WOODLANDS STREET 81</SimpleData>
+		<SimpleData name="postal_code">738524</SimpleData>
+		<SimpleData name="latitude">1.44088</SimpleData>
+		<SimpleData name="longitude">103.788728</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.788728,1.44088</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RIVERVALE PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">RIVERVALE PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">80 RIVERVALE DRIVE</SimpleData>
+		<SimpleData name="postal_code">545092</SimpleData>
+		<SimpleData name="latitude">1.393196</SimpleData>
+		<SimpleData name="longitude">103.904383</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.904383,1.393196</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ROSYTH SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ROSYTH SCHOOL</SimpleData>
+		<SimpleData name="address">21 Serangoon North Avenue 4</SimpleData>
+		<SimpleData name="postal_code">555855</SimpleData>
+		<SimpleData name="latitude">1.372862</SimpleData>
+		<SimpleData name="longitude">103.874791</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.874791,1.372862</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RULANG PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">RULANG PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">6 JURONG WEST STREET 52</SimpleData>
+		<SimpleData name="postal_code">649295</SimpleData>
+		<SimpleData name="latitude">1.346187</SimpleData>
+		<SimpleData name="longitude">103.718911</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.718911,1.346187</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SCHOOL OF SCIENCE AND TECHNOLOGY, SINGAPORE</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">SCHOOL OF SCIENCE AND TECHNOLOGY, SINGAPORE</SimpleData>
+		<SimpleData name="address">1 Technology Drive</SimpleData>
+		<SimpleData name="postal_code">138572</SimpleData>
+		<SimpleData name="latitude">1.313653</SimpleData>
+		<SimpleData name="longitude">103.774264</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.774264,1.313653</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SCHOOL OF THE ARTS, SINGAPORE</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">SCHOOL OF THE ARTS, SINGAPORE</SimpleData>
+		<SimpleData name="address">01 05 1 Zubir Said Drive Admin Office</SimpleData>
+		<SimpleData name="postal_code">227968</SimpleData>
+		<SimpleData name="latitude">1.298907</SimpleData>
+		<SimpleData name="longitude">103.84871</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.84871,1.298907</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SEMBAWANG PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">SEMBAWANG PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">10 SEMBAWANG DRIVE</SimpleData>
+		<SimpleData name="postal_code">757715</SimpleData>
+		<SimpleData name="latitude">1.44497</SimpleData>
+		<SimpleData name="longitude">103.820734</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.820734,1.44497</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SEMBAWANG SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">SEMBAWANG SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">30 SEMBAWANG CRESCENT</SimpleData>
+		<SimpleData name="postal_code">757704</SimpleData>
+		<SimpleData name="latitude">1.445241</SimpleData>
+		<SimpleData name="longitude">103.816996</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.816996,1.445241</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SENG KANG PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">SENG KANG PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">21 COMPASSVALE WALK</SimpleData>
+		<SimpleData name="postal_code">545166</SimpleData>
+		<SimpleData name="latitude">1.389041</SimpleData>
+		<SimpleData name="longitude">103.899312</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.899312,1.389041</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SENG KANG SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">SENG KANG SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">10 COMPASSVALE LANE</SimpleData>
+		<SimpleData name="postal_code">545090</SimpleData>
+		<SimpleData name="latitude">1.385933</SimpleData>
+		<SimpleData name="longitude">103.898397</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.898397,1.385933</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SENGKANG GREEN PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">SENGKANG GREEN PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">15 Fernvale Road</SimpleData>
+		<SimpleData name="postal_code">797636</SimpleData>
+		<SimpleData name="latitude">1.392548</SimpleData>
+		<SimpleData name="longitude">103.87539</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.87539,1.392548</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SERANGOON GARDEN SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">SERANGOON GARDEN SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">21 SERANGOON NORTH AVENUE 1</SimpleData>
+		<SimpleData name="postal_code">555889</SimpleData>
+		<SimpleData name="latitude">1.36967</SimpleData>
+		<SimpleData name="longitude">103.868983</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.868983,1.36967</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SERANGOON JUNIOR COLLEGE</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">SERANGOON JUNIOR COLLEGE</SimpleData>
+		<SimpleData name="address">1033 UPPER SERANGOON ROAD</SimpleData>
+		<SimpleData name="postal_code">534768</SimpleData>
+		<SimpleData name="latitude">1.365172</SimpleData>
+		<SimpleData name="longitude">103.886996</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.886996,1.365172</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SERANGOON SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">SERANGOON SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">11 UPPER SERANGOON VIEW</SimpleData>
+		<SimpleData name="postal_code">534237</SimpleData>
+		<SimpleData name="latitude">1.374544</SimpleData>
+		<SimpleData name="longitude">103.902283</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.902283,1.374544</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SHUQUN PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">SHUQUN PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">8 JURONG WEST STREET 51</SimpleData>
+		<SimpleData name="postal_code">649332</SimpleData>
+		<SimpleData name="latitude">1.347595</SimpleData>
+		<SimpleData name="longitude">103.721578</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.721578,1.347595</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SHUQUN SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">SHUQUN SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">450 JURONG EAST STREET 21</SimpleData>
+		<SimpleData name="postal_code">609604</SimpleData>
+		<SimpleData name="latitude">1.340338</SimpleData>
+		<SimpleData name="longitude">103.739469</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.739469,1.340338</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SI LING PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">SI LING PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">61 WOODLANDS AVENUE 1</SimpleData>
+		<SimpleData name="postal_code">739067</SimpleData>
+		<SimpleData name="latitude">1.432693</SimpleData>
+		<SimpleData name="longitude">103.78577</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.78577,1.432693</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SI LING SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">SI LING SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">11 MARSILING LANE</SimpleData>
+		<SimpleData name="postal_code">739148</SimpleData>
+		<SimpleData name="latitude">1.444732</SimpleData>
+		<SimpleData name="longitude">103.775019</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.775019,1.444732</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SIGLAP SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">SIGLAP SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">10 PASIR RIS DRIVE 10</SimpleData>
+		<SimpleData name="postal_code">519385</SimpleData>
+		<SimpleData name="latitude">1.37916</SimpleData>
+		<SimpleData name="longitude">103.939304</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.939304,1.37916</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SINGAPORE CHINESE GIRLS' PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">SINGAPORE CHINESE GIRLS' PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">190 DUNEARN ROAD</SimpleData>
+		<SimpleData name="postal_code">309437</SimpleData>
+		<SimpleData name="latitude">1.321253</SimpleData>
+		<SimpleData name="longitude">103.828017</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.828017,1.321253</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SINGAPORE CHINESE GIRLS' SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">SINGAPORE CHINESE GIRLS' SCHOOL</SimpleData>
+		<SimpleData name="address">190 DUNEARN ROAD</SimpleData>
+		<SimpleData name="postal_code">309437</SimpleData>
+		<SimpleData name="latitude">1.321253</SimpleData>
+		<SimpleData name="longitude">103.828017</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.828017,1.321253</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SINGAPORE SPORTS SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">SINGAPORE SPORTS SCHOOL</SimpleData>
+		<SimpleData name="address">1 Champions Way</SimpleData>
+		<SimpleData name="postal_code">737913</SimpleData>
+		<SimpleData name="latitude">1.426703</SimpleData>
+		<SimpleData name="longitude">103.789056</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.789056,1.426703</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SOUTH VIEW PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">SOUTH VIEW PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">6 Choa Chu Kang Central</SimpleData>
+		<SimpleData name="postal_code">689762</SimpleData>
+		<SimpleData name="latitude">1.381324</SimpleData>
+		<SimpleData name="longitude">103.747145</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.747145,1.381324</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SPECTRA SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">SPECTRA SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">1 WOODLANDS DRIVE 64</SimpleData>
+		<SimpleData name="postal_code">737758</SimpleData>
+		<SimpleData name="latitude">1.429235</SimpleData>
+		<SimpleData name="longitude">103.779312</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.779312,1.429235</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SPRINGDALE PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">SPRINGDALE PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">71 Anchorvale Link</SimpleData>
+		<SimpleData name="postal_code">544799</SimpleData>
+		<SimpleData name="latitude">1.395225</SimpleData>
+		<SimpleData name="longitude">103.890476</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.890476,1.395225</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SPRINGFIELD SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">SPRINGFIELD SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">30 TAMPINES AVENUE 8</SimpleData>
+		<SimpleData name="postal_code">529593</SimpleData>
+		<SimpleData name="latitude">1.349409</SimpleData>
+		<SimpleData name="longitude">103.929982</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.929982,1.349409</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ST. ANDREW'S JUNIOR COLLEGE</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ST. ANDREW'S JUNIOR COLLEGE</SimpleData>
+		<SimpleData name="address">5 Sorby Adams Drive</SimpleData>
+		<SimpleData name="postal_code">357691</SimpleData>
+		<SimpleData name="latitude">1.333201</SimpleData>
+		<SimpleData name="longitude">103.863195</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.863195,1.333201</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ST. ANDREW'S JUNIOR SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ST. ANDREW'S JUNIOR SCHOOL</SimpleData>
+		<SimpleData name="address">2 FRANCIS THOMAS DRIVE</SimpleData>
+		<SimpleData name="postal_code">359337</SimpleData>
+		<SimpleData name="latitude">1.331468</SimpleData>
+		<SimpleData name="longitude">103.865209</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.865209,1.331468</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ST. ANDREW'S SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ST. ANDREW'S SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">15 FRANCIS THOMAS DRIVE</SimpleData>
+		<SimpleData name="postal_code">359342</SimpleData>
+		<SimpleData name="latitude">1.331368</SimpleData>
+		<SimpleData name="longitude">103.865853</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.865853,1.331368</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ST. ANTHONY'S CANOSSIAN PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ST. ANTHONY'S CANOSSIAN PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">1602 BEDOK NORTH AVE 4</SimpleData>
+		<SimpleData name="postal_code">469701</SimpleData>
+		<SimpleData name="latitude">1.334282</SimpleData>
+		<SimpleData name="longitude">103.941072</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.941072,1.334282</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ST. ANTHONY'S CANOSSIAN SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ST. ANTHONY'S CANOSSIAN SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">1600 BEDOK NORTH AVENUE 4</SimpleData>
+		<SimpleData name="postal_code">469700</SimpleData>
+		<SimpleData name="latitude">1.334613</SimpleData>
+		<SimpleData name="longitude">103.942216</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.942216,1.334613</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ST. ANTHONY'S PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ST. ANTHONY'S PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">30 Bukit Batok St 32</SimpleData>
+		<SimpleData name="postal_code">659401</SimpleData>
+		<SimpleData name="latitude">1.364276</SimpleData>
+		<SimpleData name="longitude">103.749019</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.749019,1.364276</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ST. GABRIEL'S PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ST. GABRIEL'S PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">220 Lorong Chuan</SimpleData>
+		<SimpleData name="postal_code">556742</SimpleData>
+		<SimpleData name="latitude">1.349363</SimpleData>
+		<SimpleData name="longitude">103.862358</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.862358,1.349363</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ST. GABRIEL'S SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ST. GABRIEL'S SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">24 SERANGOON AVENUE 1</SimpleData>
+		<SimpleData name="postal_code">556140</SimpleData>
+		<SimpleData name="latitude">1.346401</SimpleData>
+		<SimpleData name="longitude">103.875825</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.875825,1.346401</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ST. HILDA'S PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ST. HILDA'S PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">2 Tampines Ave 3</SimpleData>
+		<SimpleData name="postal_code">529706</SimpleData>
+		<SimpleData name="latitude">1.349548</SimpleData>
+		<SimpleData name="longitude">103.936412</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.936412,1.349548</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ST. HILDA'S SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ST. HILDA'S SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">2 TAMPINES STREET 82</SimpleData>
+		<SimpleData name="postal_code">528986</SimpleData>
+		<SimpleData name="latitude">1.350082</SimpleData>
+		<SimpleData name="longitude">103.936638</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.936638,1.350082</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ST. JOSEPH'S INSTITUTION</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ST. JOSEPH'S INSTITUTION</SimpleData>
+		<SimpleData name="address">21 BISHAN STREET 14</SimpleData>
+		<SimpleData name="postal_code">579781</SimpleData>
+		<SimpleData name="latitude">1.351244</SimpleData>
+		<SimpleData name="longitude">103.853082</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.853082,1.351244</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ST. JOSEPH'S INSTITUTION JUNIOR</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ST. JOSEPH'S INSTITUTION JUNIOR</SimpleData>
+		<SimpleData name="address">3 ESSEX ROAD</SimpleData>
+		<SimpleData name="postal_code">309331</SimpleData>
+		<SimpleData name="latitude">1.317267</SimpleData>
+		<SimpleData name="longitude">103.845562</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.845562,1.317267</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ST. MARGARET'S PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ST. MARGARET'S PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">99 WILKIE ROAD</SimpleData>
+		<SimpleData name="postal_code">228091</SimpleData>
+		<SimpleData name="latitude">1.304444</SimpleData>
+		<SimpleData name="longitude">103.845851</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.845851,1.304444</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ST. MARGARET'S SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ST. MARGARET'S SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">111 FARRER ROAD</SimpleData>
+		<SimpleData name="postal_code">259240</SimpleData>
+		<SimpleData name="latitude">1.319577</SimpleData>
+		<SimpleData name="longitude">103.809597</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.809597,1.319577</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ST. PATRICK'S SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ST. PATRICK'S SCHOOL</SimpleData>
+		<SimpleData name="address">490 EAST COAST ROAD</SimpleData>
+		<SimpleData name="postal_code">429058</SimpleData>
+		<SimpleData name="latitude">1.30923</SimpleData>
+		<SimpleData name="longitude">103.916644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.916644,1.30923</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ST. STEPHEN'S SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ST. STEPHEN'S SCHOOL</SimpleData>
+		<SimpleData name="address">20 SIGLAP VIEW</SimpleData>
+		<SimpleData name="postal_code">455789</SimpleData>
+		<SimpleData name="latitude">1.319006</SimpleData>
+		<SimpleData name="longitude">103.917604</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.917604,1.319006</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>STAMFORD PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">STAMFORD PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">1 VICTORIA LANE</SimpleData>
+		<SimpleData name="postal_code">198423</SimpleData>
+		<SimpleData name="latitude">1.303878</SimpleData>
+		<SimpleData name="longitude">103.857586</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.857586,1.303878</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SWISS COTTAGE SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">SWISS COTTAGE SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">3 BUKIT BATOK STREET 34</SimpleData>
+		<SimpleData name="postal_code">659322</SimpleData>
+		<SimpleData name="latitude">1.364045</SimpleData>
+		<SimpleData name="longitude">103.750416</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.750416,1.364045</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>TAMPINES JUNIOR COLLEGE</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">TAMPINES JUNIOR COLLEGE</SimpleData>
+		<SimpleData name="address">2 TAMPINES AVENUE 9</SimpleData>
+		<SimpleData name="postal_code">529564</SimpleData>
+		<SimpleData name="latitude">1.357607</SimpleData>
+		<SimpleData name="longitude">103.955857</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.955857,1.357607</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>TAMPINES NORTH PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">TAMPINES NORTH PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">30 TAMPINES AVENUE 9</SimpleData>
+		<SimpleData name="postal_code">529565</SimpleData>
+		<SimpleData name="latitude">1.360298</SimpleData>
+		<SimpleData name="longitude">103.948581</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.948581,1.360298</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>TAMPINES PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">TAMPINES PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">250 TAMPINES STREET 12</SimpleData>
+		<SimpleData name="postal_code">529426</SimpleData>
+		<SimpleData name="latitude">1.349774</SimpleData>
+		<SimpleData name="longitude">103.94402</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.94402,1.349774</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>TAMPINES SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">TAMPINES SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">252 TAMPINES ST 12</SimpleData>
+		<SimpleData name="postal_code">529427</SimpleData>
+		<SimpleData name="latitude">1.348712</SimpleData>
+		<SimpleData name="longitude">103.944485</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.944485,1.348712</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>TANGLIN SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">TANGLIN SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">301 WEST COAST ROAD</SimpleData>
+		<SimpleData name="postal_code">127391</SimpleData>
+		<SimpleData name="latitude">1.309698</SimpleData>
+		<SimpleData name="longitude">103.758184</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.758184,1.309698</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>TANJONG KATONG GIRLS' SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">TANJONG KATONG GIRLS' SCHOOL</SimpleData>
+		<SimpleData name="address">20 DUNMAN LANE</SimpleData>
+		<SimpleData name="postal_code">439272</SimpleData>
+		<SimpleData name="latitude">1.308631</SimpleData>
+		<SimpleData name="longitude">103.895897</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.895897,1.308631</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>TANJONG KATONG PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">TANJONG KATONG PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">10 SERAYA ROAD</SimpleData>
+		<SimpleData name="postal_code">437259</SimpleData>
+		<SimpleData name="latitude">1.305412</SimpleData>
+		<SimpleData name="longitude">103.900309</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.900309,1.305412</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>TANJONG KATONG SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">TANJONG KATONG SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">130 HAIG ROAD</SimpleData>
+		<SimpleData name="postal_code">438796</SimpleData>
+		<SimpleData name="latitude">1.308628</SimpleData>
+		<SimpleData name="longitude">103.897257</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.897257,1.308628</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>TAO NAN SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">TAO NAN SCHOOL</SimpleData>
+		<SimpleData name="address">49 MARINE CRESCENT</SimpleData>
+		<SimpleData name="postal_code">449761</SimpleData>
+		<SimpleData name="latitude">1.304906</SimpleData>
+		<SimpleData name="longitude">103.911434</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.911434,1.304906</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>TECK GHEE PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">TECK GHEE PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">1 ANG MO KIO STREET 32</SimpleData>
+		<SimpleData name="postal_code">569299</SimpleData>
+		<SimpleData name="latitude">1.365396</SimpleData>
+		<SimpleData name="longitude">103.850524</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.850524,1.365396</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>TECK WHYE PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">TECK WHYE PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">11 TECK WHYE WALK</SimpleData>
+		<SimpleData name="postal_code">688261</SimpleData>
+		<SimpleData name="latitude">1.383126</SimpleData>
+		<SimpleData name="longitude">103.753548</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.753548,1.383126</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>TECK WHYE SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">TECK WHYE SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">31 TECK WHYE CRESCENT</SimpleData>
+		<SimpleData name="postal_code">688848</SimpleData>
+		<SimpleData name="latitude">1.382536</SimpleData>
+		<SimpleData name="longitude">103.755214</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.755214,1.382536</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>TELOK KURAU PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">TELOK KURAU PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">50 BEDOK RESERVOIR RD</SimpleData>
+		<SimpleData name="postal_code">479239</SimpleData>
+		<SimpleData name="latitude">1.331377</SimpleData>
+		<SimpleData name="longitude">103.911059</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.911059,1.331377</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>TEMASEK JUNIOR COLLEGE</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">TEMASEK JUNIOR COLLEGE</SimpleData>
+		<SimpleData name="address">22 BEDOK SOUTH ROAD</SimpleData>
+		<SimpleData name="postal_code">469278</SimpleData>
+		<SimpleData name="latitude">1.3189</SimpleData>
+		<SimpleData name="longitude">103.935561</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.935561,1.3189</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>TEMASEK PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">TEMASEK PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">501 BEDOK SOUTH AVE 3</SimpleData>
+		<SimpleData name="postal_code">469300</SimpleData>
+		<SimpleData name="latitude">1.317502</SimpleData>
+		<SimpleData name="longitude">103.945488</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.945488,1.317502</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>TEMASEK SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">TEMASEK SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">600 UPPER EAST COAST ROAD</SimpleData>
+		<SimpleData name="postal_code">465561</SimpleData>
+		<SimpleData name="latitude">1.315759</SimpleData>
+		<SimpleData name="longitude">103.947167</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.947167,1.315759</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>TOWNSVILLE PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">TOWNSVILLE PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">3 ANG MO KIO AVE 10</SimpleData>
+		<SimpleData name="postal_code">569730</SimpleData>
+		<SimpleData name="latitude">1.359123</SimpleData>
+		<SimpleData name="longitude">103.854452</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.854452,1.359123</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>UNITY PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">UNITY PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">21 CHOA CHU KANG CRESCENT</SimpleData>
+		<SimpleData name="postal_code">688268</SimpleData>
+		<SimpleData name="latitude">1.403245</SimpleData>
+		<SimpleData name="longitude">103.74729</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.74729,1.403245</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>UNITY SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">UNITY SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">20 CHOA CHU KANG STREET 62</SimpleData>
+		<SimpleData name="postal_code">689143</SimpleData>
+		<SimpleData name="latitude">1.40005</SimpleData>
+		<SimpleData name="longitude">103.746125</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.746125,1.40005</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>VICTORIA JUNIOR COLLEGE</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">VICTORIA JUNIOR COLLEGE</SimpleData>
+		<SimpleData name="address">20 MARINE VISTA</SimpleData>
+		<SimpleData name="postal_code">449035</SimpleData>
+		<SimpleData name="latitude">1.306142</SimpleData>
+		<SimpleData name="longitude">103.919825</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.919825,1.306142</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>VICTORIA SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">VICTORIA SCHOOL</SimpleData>
+		<SimpleData name="address">2 SIGLAP LINK</SimpleData>
+		<SimpleData name="postal_code">448880</SimpleData>
+		<SimpleData name="latitude">1.308378</SimpleData>
+		<SimpleData name="longitude">103.927638</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.927638,1.308378</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WATERWAY PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">WATERWAY PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">70 Punggol Drive</SimpleData>
+		<SimpleData name="postal_code">828802</SimpleData>
+		<SimpleData name="latitude">1.405087</SimpleData>
+		<SimpleData name="longitude">103.908634</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.908634,1.405087</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WELLINGTON PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">WELLINGTON PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">10 WELLINGTON CIRCLE</SimpleData>
+		<SimpleData name="postal_code">757702</SimpleData>
+		<SimpleData name="latitude">1.452297</SimpleData>
+		<SimpleData name="longitude">103.8219</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.8219,1.452297</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WEST GROVE PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">WEST GROVE PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">1 JURONG WEST ST 72</SimpleData>
+		<SimpleData name="postal_code">649223</SimpleData>
+		<SimpleData name="latitude">1.34455</SimpleData>
+		<SimpleData name="longitude">103.698987</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.698987,1.34455</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WEST SPRING PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">WEST SPRING PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">60 Bukit Panjang Ring Road</SimpleData>
+		<SimpleData name="postal_code">679946</SimpleData>
+		<SimpleData name="latitude">1.388897</SimpleData>
+		<SimpleData name="longitude">103.766305</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.766305,1.388897</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WEST SPRING SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">WEST SPRING SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">61 SENJA ROAD</SimpleData>
+		<SimpleData name="postal_code">677737</SimpleData>
+		<SimpleData name="latitude">1.387707</SimpleData>
+		<SimpleData name="longitude">103.760018</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.760018,1.387707</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WEST VIEW PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">WEST VIEW PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">31 SENJA ROAD</SimpleData>
+		<SimpleData name="postal_code">677742</SimpleData>
+		<SimpleData name="latitude">1.383113</SimpleData>
+		<SimpleData name="longitude">103.760229</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.760229,1.383113</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WESTWOOD PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">WESTWOOD PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">1 Jurong West Street 73</SimpleData>
+		<SimpleData name="postal_code">649188</SimpleData>
+		<SimpleData name="latitude">1.350942</SimpleData>
+		<SimpleData name="longitude">103.723313</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.723313,1.350942</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WESTWOOD SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">WESTWOOD SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">11 JURONG WEST STREET 25</SimpleData>
+		<SimpleData name="postal_code">648350</SimpleData>
+		<SimpleData name="latitude">1.353569</SimpleData>
+		<SimpleData name="longitude">103.701682</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.701682,1.353569</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WHITE SANDS PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">WHITE SANDS PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">2 PASIR RIS ST 11</SimpleData>
+		<SimpleData name="postal_code">519075</SimpleData>
+		<SimpleData name="latitude">1.364903</SimpleData>
+		<SimpleData name="longitude">103.961329</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.961329,1.364903</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WHITLEY SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">WHITLEY SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">30 BISHAN STREET 24</SimpleData>
+		<SimpleData name="postal_code">579747</SimpleData>
+		<SimpleData name="latitude">1.355497</SimpleData>
+		<SimpleData name="longitude">103.843265</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.843265,1.355497</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WOODGROVE PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">WOODGROVE PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">2 WOODLANDS DRIVE 14 WOODGROVE PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="postal_code">738079</SimpleData>
+		<SimpleData name="latitude">1.433234</SimpleData>
+		<SimpleData name="longitude">103.790306</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.790306,1.433234</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WOODGROVE SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">WOODGROVE SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">3 WOODLANDS AVENUE 6</SimpleData>
+		<SimpleData name="postal_code">738990</SimpleData>
+		<SimpleData name="latitude">1.428068</SimpleData>
+		<SimpleData name="longitude">103.796334</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.796334,1.428068</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WOODLANDS PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">WOODLANDS PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">10 WOODLANDS DRIVE 50</SimpleData>
+		<SimpleData name="postal_code">738853</SimpleData>
+		<SimpleData name="latitude">1.436771</SimpleData>
+		<SimpleData name="longitude">103.791794</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.791794,1.436771</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WOODLANDS RING PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">WOODLANDS RING PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">11 WOODLANDS RING ROAD</SimpleData>
+		<SimpleData name="postal_code">738240</SimpleData>
+		<SimpleData name="latitude">1.434839</SimpleData>
+		<SimpleData name="longitude">103.797928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.797928,1.434839</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WOODLANDS RING SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">WOODLANDS RING SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">10 WOODLANDS RING ROAD</SimpleData>
+		<SimpleData name="postal_code">738239</SimpleData>
+		<SimpleData name="latitude">1.436147</SimpleData>
+		<SimpleData name="longitude">103.800671</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.800671,1.436147</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WOODLANDS SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">WOODLANDS SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">11 MARSILING ROAD</SimpleData>
+		<SimpleData name="postal_code">739111</SimpleData>
+		<SimpleData name="latitude">1.439565</SimpleData>
+		<SimpleData name="longitude">103.774208</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.774208,1.439565</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>XINGHUA PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">XINGHUA PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">45 HOUGANG AVENUE 1</SimpleData>
+		<SimpleData name="postal_code">538882</SimpleData>
+		<SimpleData name="latitude">1.357861</SimpleData>
+		<SimpleData name="longitude">103.889918</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.889918,1.357861</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>XINGNAN PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">XINGNAN PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">5 JURONG WEST STREET 91</SimpleData>
+		<SimpleData name="postal_code">649036</SimpleData>
+		<SimpleData name="latitude">1.342223</SimpleData>
+		<SimpleData name="longitude">103.688066</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.688066,1.342223</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>XINMIN PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">XINMIN PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">9 HOUGANG AVENUE 8</SimpleData>
+		<SimpleData name="postal_code">538784</SimpleData>
+		<SimpleData name="latitude">1.371069</SimpleData>
+		<SimpleData name="longitude">103.883029</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.883029,1.371069</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>XINMIN SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">XINMIN SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">11 HOUGANG AVENUE 8</SimpleData>
+		<SimpleData name="postal_code">538789</SimpleData>
+		<SimpleData name="latitude">1.372635</SimpleData>
+		<SimpleData name="longitude">103.883077</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.883077,1.372635</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>XISHAN PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">XISHAN PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">8 YISHUN STREET 21</SimpleData>
+		<SimpleData name="postal_code">768611</SimpleData>
+		<SimpleData name="latitude">1.433577</SimpleData>
+		<SimpleData name="longitude">103.837571</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.837571,1.433577</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>YANGZHENG PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">YANGZHENG PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">15 SERANGOON AVENUE 3</SimpleData>
+		<SimpleData name="postal_code">556108</SimpleData>
+		<SimpleData name="latitude">1.348506</SimpleData>
+		<SimpleData name="longitude">103.868407</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.868407,1.348506</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>YEW TEE PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">YEW TEE PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">10 CHOA CHU KANG ST 64</SimpleData>
+		<SimpleData name="postal_code">689100</SimpleData>
+		<SimpleData name="latitude">1.396985</SimpleData>
+		<SimpleData name="longitude">103.751221</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.751221,1.396985</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>YIO CHU KANG PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">YIO CHU KANG PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">1 HOUGANG STREET 51</SimpleData>
+		<SimpleData name="postal_code">538720</SimpleData>
+		<SimpleData name="latitude">1.377792</SimpleData>
+		<SimpleData name="longitude">103.885447</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.885447,1.377792</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>YIO CHU KANG SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">YIO CHU KANG SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">3063 ANG MO KIO AVENUE 5</SimpleData>
+		<SimpleData name="postal_code">569868</SimpleData>
+		<SimpleData name="latitude">1.377635</SimpleData>
+		<SimpleData name="longitude">103.842103</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.842103,1.377635</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>YISHUN JUNIOR COLLEGE</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">YISHUN JUNIOR COLLEGE</SimpleData>
+		<SimpleData name="address">3 YISHUN RING ROAD</SimpleData>
+		<SimpleData name="postal_code">768675</SimpleData>
+		<SimpleData name="latitude">1.424637</SimpleData>
+		<SimpleData name="longitude">103.829634</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.829634,1.424637</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>YISHUN PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">YISHUN PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">500 YISHUN RING ROAD</SimpleData>
+		<SimpleData name="postal_code">768679</SimpleData>
+		<SimpleData name="latitude">1.434101</SimpleData>
+		<SimpleData name="longitude">103.833896</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.833896,1.434101</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>YISHUN SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">YISHUN SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">4 YISHUN STREET 71</SimpleData>
+		<SimpleData name="postal_code">768516</SimpleData>
+		<SimpleData name="latitude">1.428129</SimpleData>
+		<SimpleData name="longitude">103.828833</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.828833,1.428129</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>YISHUN TOWN SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">YISHUN TOWN SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">6 YISHUN STREET 21</SimpleData>
+		<SimpleData name="postal_code">768610</SimpleData>
+		<SimpleData name="latitude">1.43231</SimpleData>
+		<SimpleData name="longitude">103.837858</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.837858,1.43231</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>YU NENG PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">YU NENG PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">56 BEDOK NORTH ST 3</SimpleData>
+		<SimpleData name="postal_code">469623</SimpleData>
+		<SimpleData name="latitude">1.333929</SimpleData>
+		<SimpleData name="longitude">103.932513</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.932513,1.333929</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>YUAN CHING SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">YUAN CHING SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">103 YUAN CHING ROAD</SimpleData>
+		<SimpleData name="postal_code">618654</SimpleData>
+		<SimpleData name="latitude">1.341917</SimpleData>
+		<SimpleData name="longitude">103.720994</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.720994,1.341917</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>YUHUA PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">YUHUA PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">158 JURONG EAST STREET 24</SimpleData>
+		<SimpleData name="postal_code">609558</SimpleData>
+		<SimpleData name="latitude">1.343263</SimpleData>
+		<SimpleData name="longitude">103.740763</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.740763,1.343263</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>YUHUA SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">YUHUA SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">35 JURONG WEST STREET 41</SimpleData>
+		<SimpleData name="postal_code">649406</SimpleData>
+		<SimpleData name="latitude">1.347026</SimpleData>
+		<SimpleData name="longitude">103.722405</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.722405,1.347026</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>YUMIN PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">YUMIN PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">3 TAMPINES STREET 21</SimpleData>
+		<SimpleData name="postal_code">529393</SimpleData>
+		<SimpleData name="latitude">1.351484</SimpleData>
+		<SimpleData name="longitude">103.951159</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.951159,1.351484</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>YUSOF ISHAK SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">YUSOF ISHAK SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">11 BUKIT BATOK STREET 25</SimpleData>
+		<SimpleData name="postal_code">658712</SimpleData>
+		<SimpleData name="latitude">1.342423</SimpleData>
+		<SimpleData name="longitude">103.760309</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.760309,1.342423</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>YUYING SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">YUYING SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">47 HOUGANG AVENUE 1</SimpleData>
+		<SimpleData name="postal_code">538884</SimpleData>
+		<SimpleData name="latitude">1.356754</SimpleData>
+		<SimpleData name="longitude">103.890092</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.890092,1.356754</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ZHANGDE PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ZHANGDE PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">51 Jalan Membina</SimpleData>
+		<SimpleData name="postal_code">169485</SimpleData>
+		<SimpleData name="latitude">1.284578</SimpleData>
+		<SimpleData name="longitude">103.826193</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.826193,1.284578</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ZHENGHUA PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ZHENGHUA PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">9 Fajar Road</SimpleData>
+		<SimpleData name="postal_code">679002</SimpleData>
+		<SimpleData name="latitude">1.37957</SimpleData>
+		<SimpleData name="longitude">103.769301</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.769301,1.37957</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ZHENGHUA SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ZHENGHUA SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">91 SENJA ROAD</SimpleData>
+		<SimpleData name="postal_code">677741</SimpleData>
+		<SimpleData name="latitude">1.388271</SimpleData>
+		<SimpleData name="longitude">103.764939</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.764939,1.388271</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ZHONGHUA PRIMARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ZHONGHUA PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="address">12 SERANGOON AVENUE 4 ZHONGHUA PRIMARY SCHOOL</SimpleData>
+		<SimpleData name="postal_code">556095</SimpleData>
+		<SimpleData name="latitude">1.359895</SimpleData>
+		<SimpleData name="longitude">103.869558</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.869558,1.359895</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ZHONGHUA SECONDARY SCHOOL</name>
+	<ExtendedData><SchemaData schemaUrl="#csv_20161025124713">
+		<SimpleData name="Name">ZHONGHUA SECONDARY SCHOOL</SimpleData>
+		<SimpleData name="address">13 SERANGOON AVENUE 3</SimpleData>
+		<SimpleData name="postal_code">556123</SimpleData>
+		<SimpleData name="latitude">1.349457</SimpleData>
+		<SimpleData name="longitude">103.869187</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>103.869187,1.349457</coordinates></Point>
+  </Placemark>
+</Folder></Document></kml>
+
+

@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+{% load bootstrap3 %}
+{% block title %}
+    View All Listings
+{% endblock %}
+{% block content %}
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            {% if listings %}
+                {% for listing in listings %}
+                    <div class="panel panel-default">
+                        <div class="panel-heading clearfix">
+                            <h3 class="panel-title pull-left" style="padding-top:3px;">
+                                <a href="/listing/view/{{ listing.id }}">{{ listing.block|title }}
+                                    {{ listing.street|title }}
+                                    #{{ listing.floor|title }}-{{ listing.unit|title }}</a>
+                            </h3>
+                            {% if listing.user == request.user %}
+                                <!-- <button class="btn btn-danger pull-right btn-xs" role="button" onclick="confirmDelete()"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Delete</a></button> -->
+                            {% endif %}
+                        </div>
+                        <div class="panel-body" style=" word-wrap: break-word;">
+                            <div class="row">
+                                {% for pictures in listingPictures %}
+                                    {% if pictures.listing_id == listing.id %}
+                                        <div class="col-xs-6 col-md-3">
+                                            <a href="#" class="thumbnail">
+                                                <img style="height:300px; object-fit:cover;" src="{{ pictures.image.url }}"/>
+                                            </a>
+                                        </div>
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6" style=" word-wrap: break-word; ">
+                                    <p>{{ listing.description }}</p>
+                                </div>
+                                <div class="col-md-6" style=" word-wrap: break-word; ">
+                                    <h4 class="text-right">{{ listing.roomType }}
+                                    </h4>
+                                    <h2 class="text-right">${{ listing.askingPrice }}
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            {% else %}
+                <h2>You have no available listings!</h2>
+                <a href="/listing/create/" class="btn btn-success" role="button">Create a new listing</a>
+            {% endif %}
+            <div class="pull-right">
+                {% bootstrap_pagination listings size="large"%}
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+    <script type="text/javascript">
+        document.getElementById('sidebar-wrapper').innerHTML = '';
+        document.getElementById('navbar-search-toggle').innerHTML = '';
+        document.getElementById('listing').className = 'active';
+
+        function confirmDelete() {
+            var result = confirm("Confirm deletion?");
+            if (result) {
+                window.location = "/listing/delete/" + listingID;
+            }
+        }
+    </script>
+{% endblock %}

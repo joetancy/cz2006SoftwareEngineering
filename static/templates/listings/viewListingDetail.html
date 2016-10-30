@@ -1,0 +1,289 @@
+{% extends 'base.html' %}
+{% load bootstrap3 %}
+{% block title %}
+    View Listings
+{% endblock %}
+{% block content %}
+
+    <div class="row">
+        <div class="col-md-6">
+            {% for listing in listings %}
+                <div class="panel panel-default">
+                    <div class="panel-heading clearfix">
+                        <h3 class="panel-title pull-left" style="padding-top:3px;">
+                            <a href="/listing/view/{{ listing.id }}">{{ listing.block|title }}
+                                {{ listing.street|title }}
+                                #{{ listing.floor|title }}-{{ listing.unit|title}}</a>
+                        </h3>
+                        {% if listing.user == request.user %}
+                            <button class="btn btn-danger pull-right btn-xs" role="button" onclick="confirmDelete()">
+                                <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+                                Delete</a>
+                        </button>
+                    {% endif %}
+                </div>
+                <div class="panel-body" style=" word-wrap: break-word; ">
+                    <div class="row">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="height:500px;">
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                {% for pictures in listingPictures %}
+                                    {% if forloop.first %}
+                                        <div class="item active">
+                                            <img src="{{ pictures.image.url }}" style="height:500px; width:100%;object-fit:cover;background:grey"/>
+                                        </div>
+                                    {% else %}
+                                        <div class="item">
+                                            <img src="{{ pictures.image.url }}" style="height:500px; width:100%;object-fit:cover;background:grey"/>
+                                        </div>
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
+
+                            <!-- Controls -->
+                            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row margin-top-20">
+                        <div class="col-md-7">
+                            <p class="text-justify">
+                                {{ listing.description }}
+                                {%lorem 2%}</p>
+                        </div>
+                        <div class="col-md-5">
+                            <blockquote>
+                                <h4 class="text-right">{{ listing.roomType }}
+                                </h4>
+                                <h2 class="text-right">${{ listing.askingPrice }}
+                                </h2>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="text-center">Contact me at
+                                <a href="mailto:{{ poster.email }}" target="_top">{{ poster.email }}</a>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <div class="col-md-6">
+        <div class="row">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Map</h3>
+                </div>
+                <div class="panel-body" style=" word-wrap: break-word; ">
+                    <div id="mapid2" style="height:500px;"></div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Clinics</h3>
+                </div>
+                <div class="panel-body" style=" word-wrap: break-word; ">
+                    <div class="row">
+                        <div id="medicalFacs" class="col-xs-10"></div>
+                        <div id="medicalDistance" class="col-xs-2 text-right"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Schools</h3>
+                </div>
+                <div class="panel-body" style=" word-wrap: break-word; ">
+                    <div class="row">
+                        <div id="schools" class="col-xs-10"></div>
+                        <div id="schoolsDistance" class="col-xs-2 text-right"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Parks</h3>
+                </div>
+                <div class="panel-body" style=" word-wrap: break-word; ">
+                    <div class="row">
+                        <div id="parks" class="col-xs-8"></div>
+                        <div id="parksDistance" class="col-xs-4 text-right"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="data"></div>
+
+{% endblock %}
+{% block js %}
+<script type="text/javascript">
+    var postalCode;
+    var address;
+    var lat;
+    var long;
+    var marker;
+    var mymap;
+    var listingID;
+
+    document.getElementById('sidebar-wrapper').innerHTML = '';
+    document.getElementById('navbar-search-toggle').innerHTML = '';
+    document.getElementById('listing').className = 'active';
+    $(document).ready(function () {
+        { % for listing in listings %
+        }
+        listingID = '{{ listing.id }}'
+        lat = '{{ listing.latitude }}';
+        long = '{{ listing.longitude }}';
+        { % endfor %
+    }
+    initMap();
+});
+
+function confirmDelete() {
+    var result = confirm("Confirm deletion?");
+    if (result) {
+        window.location = "/listing/delete/" + listingID;
+    }
+}
+
+function initMap() {
+    // set default location to listing location with zoom 16
+    mymap = L.map('mapid2', {
+        dragging: false,
+        zoomControl: false,
+        doubleClickZoom: false,
+        scrollWheelZoom: false,
+        maxZoom: 15
+    });
+    //zoom level 16
+    mymap.setView([
+        lat, long
+    ], 15);
+
+    // set and load maptiles from HERE maps
+    L.tileLayer('http://{s}.{base}.maps.cit.api.here.com/maptile/2.1/{type}/{mapID}/{scheme}/{z}/{x}/{y}/{size}/{format}?app_id={app_id}&app_code={app_code}&lg={language}', {
+        attribution: 'Map &copy; 2016 <a href="http://developer.here.com">HERE</a>',
+        subdomains: '1234',
+        base: 'base',
+        type: 'maptile',
+        scheme: 'pedestrian.day',
+        app_id: 'QM5xg3KzHPkhtZsGxE29',
+        app_code: 'UE03S_6MOkiOtr6ELXKESw',
+        mapID: 'newest',
+        maxZoom: 20,
+        language: 'eng',
+        format: 'png8',
+        size: '256'
+    }).addTo(mymap);
+    setMarkers();
+}
+
+function setMarkers() {
+
+    // icons from http://www.flaticon.com/ @joe
+    var customIcon = L.Icon.extend({
+        options: {
+            iconSize: [
+                32, 32
+            ], // size of the icon
+            iconAnchor: [
+                16, 16
+            ], // point of the icon which will correspond to marker's location
+            popupAnchor: [0, -16] // point from which the popup should open relative to the iconAnchor
+        }
+    });
+    var houseIcon = new customIcon({iconUrl: '/static/icons/house.png'});
+    var medicalIcon = new customIcon({iconUrl: '/static/icons/medical.png'});
+    var parkIcon = new customIcon({iconUrl: '/static/icons/park.png'});
+    var schoolIcon = new customIcon({iconUrl: '/static/icons/school.png'});
+
+    var chasClinics = L.markerClusterGroup({zoomToBoundsOnClick: false, spiderfyOnMaxZoom: true, removeOutsideVisibleBounds: true, spiderfyDistanceMultiplier: 1.2});
+
+    var chasClinicsKML = omnivore.kml('/static/data/MOH_CHAS_CLINICS.kml').on('ready', function () {
+        this.eachLayer(function (marker) {
+            if (marker.getLatLng().distanceTo(L.latLng(lat, long)) < 500) {
+                marker.setIcon(medicalIcon);
+                marker.bindPopup(marker.toGeoJSON().properties.name.toUpperCase(), {autoPan: false});
+                document.getElementById("medicalFacs").innerHTML += '<p>' + marker.toGeoJSON().properties.name.toUpperCase() + '</p>';
+                document.getElementById('medicalDistance').innerHTML += '<p class="text-right">' + Math.round(marker.getLatLng().distanceTo(L.latLng(lat, long))) + 'm</p>';
+                chasClinics.addLayer(marker);
+            }
+        })
+        if (document.getElementById('medicalFacs').innerHTML === "") {
+            document.getElementById('medicalFacs').innerHTML = 'No clinics nearby!';
+        }
+    });
+
+    var parks = L.markerClusterGroup({zoomToBoundsOnClick: false, spiderfyOnMaxZoom: true, removeOutsideVisibleBounds: true, spiderfyDistanceMultiplier: 1.2});
+
+    var parksKML = omnivore.kml('/static/data/NATIONALPARKS.kml').on('ready', function () {
+        this.eachLayer(function (marker) {
+            if (marker.getLatLng().distanceTo(L.latLng(lat, long)) < 1000) {
+                marker.setIcon(parkIcon);
+                marker.bindPopup(marker.toGeoJSON().properties.name.toUpperCase(), {autoPan: false});
+                document.getElementById("parks").innerHTML += '<p>' + marker.toGeoJSON().properties.name.toUpperCase() + '</p>';
+                document.getElementById('parksDistance').innerHTML += '<p class="text-right">' + Math.round(marker.getLatLng().distanceTo(L.latLng(lat, long))) + 'm</p>'
+                parks.addLayer(marker);
+            }
+        })
+        if (document.getElementById('parks').innerHTML === "") {
+            document.getElementById('parks').innerHTML = 'No parks nearby!';
+        }
+    });
+
+    var schoolKML = omnivore.kml('/static/data/schools.kml').on('ready', function () {
+        this.eachLayer(function (marker) {
+            if (marker.getLatLng().distanceTo(L.latLng(lat, long)) < 1000) {
+                marker.setIcon(schoolIcon);
+                marker.bindPopup(marker.toGeoJSON().properties.Name.toUpperCase(), {autoPan: false});
+                document.getElementById("schools").innerHTML += '<p>' + marker.toGeoJSON().properties.Name.toUpperCase() + '</p>';
+                document.getElementById('schoolsDistance').innerHTML += '<p class="text-right">' + Math.round(marker.getLatLng().distanceTo(L.latLng(lat, long))) + 'm</p>'
+                marker.addTo(mymap);
+            }
+        })
+        if (document.getElementById('schools').innerHTML === "") {
+            document.getElementById('schools').innerHTML = 'No schools nearby!';
+        }
+    });
+
+    var filterCircle = L.circle(L.latLng(lat, long), 500, {
+        opacity: 1,
+        weight: 1,
+        fillOpacity: 0.3
+    }).addTo(mymap);
+
+    var filterCircle2 = L.circle(L.latLng(lat, long), 1000, {
+        opacity: 1,
+        weight: 1,
+        fillOpacity: 0.3
+    }).addTo(mymap);
+
+    chasClinics.on('clustermouseover', function (a) {
+        a.layer.spiderfy();
+    });
+
+    marker = L.marker([
+        lat, long
+    ], {
+        icon: houseIcon,
+        zIndexOffset: 1000
+    });
+    marker.addTo(mymap);
+    mymap.addLayer(parks);
+    mymap.addLayer(chasClinics);
+
+}
+</script>
+{% endblock %}

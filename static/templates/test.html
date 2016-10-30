@@ -1,0 +1,32 @@
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs col-xs-12 col-md-8 topleft" role="tablist">
+    <li role="presentation" class="active"><a href="#address" aria-controls="home" role="tab" data-toggle="tab">Search By Address</a></li>
+    <li role="presentation"><a href="#facilities" aria-controls="profile" role="tab" data-toggle="tab">Search By Facilities</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content col-xs-12 col-md-8">
+    <div role="tabpanel" class="tab-pane active" id="address">
+        <form action="/" method="POST">
+            {% csrf_token %}
+            <div class="input-group">
+                <input type="text" class="form-control" aria-label="Location" placeholder="Location" id="id_location" maxlength="100" name="location">
+                <span class="input-group-btn">{% bootstrap_button 'Search' 'submit' %}</span>
+            </div>
+        </form>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="facilities">
+        <form action="/" method="POST">
+            {% csrf_token %}
+            <div class="input-group">
+                <label>
+                    <input type="checkbox" name="display_type" value="clinics" id="c_box"> Clinics
+                </label>
+                <label>
+                    <input type="checkbox" name="display_type" value="park" id="p_box"> Parks
+                </label>
+                <span class="input-group-btn">{% bootstrap_button 'Search' 'submit' %}</span>
+            </div>
+        </form>
+    </div>
+  </div>

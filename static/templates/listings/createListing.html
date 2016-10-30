@@ -1,0 +1,107 @@
+{% extends 'base.html' %}
+{% load bootstrap3 %}
+{% block title %}
+    Create Listing
+{% endblock %}
+{% block content %}
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Map</h3>
+                </div>
+                <div class="panel-body" style=" word-wrap: break-word; ">
+                    <div id="mapid2" style="height:600px;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Create Listing</h3>
+                </div>
+                <div class="panel-body">
+                    <form method='POST' action='' enctype="multipart/form-data">
+                        {% csrf_token %}
+                        {% bootstrap_form form %}
+                        {% bootstrap_button "Submit" button_type = "submit" button_class = "btn-primary" %}
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+{% block js %}
+    <script type="text/javascript">
+        var postalCode;
+        var address;
+        var lat;
+        var long;
+        var marker;
+
+        document.getElementById('sidebar-wrapper').innerHTML = '';
+        document.getElementById('navbar-search-toggle').innerHTML = '';
+        document.getElementById('listing').className = 'active';
+
+        function getAddress() {
+            postalCode = document.getElementById('id_postalCode').value;
+            if (postalCode < 1000000 && postalCode > 99999) {
+
+                $.ajax({
+                    url: 'https://geocoder.cit.api.here.com/6.2/geocode.json',
+                    type: 'GET',
+                    dataType: 'jsonp',
+                    jsonp: 'jsoncallback',
+                    data: {
+                        searchtext: postalCode + ' Singapore',
+                        gen: '9',
+                        app_id: 'QM5xg3KzHPkhtZsGxE29',
+                        app_code: 'UE03S_6MOkiOtr6ELXKESw'
+                    },
+                    success: function (data) {
+                        address = data.Response.View[0].Result[0].Location.Address;
+                        document.getElementById('id_block').value = address.HouseNumber;
+                        document.getElementById('id_street').value = address.Street;
+                        latitude = data.Response.View[0].Result[0].Location.DisplayPosition.Latitude;
+                        longitude = data.Response.View[0].Result[0].Location.DisplayPosition.Longitude;
+                        document.getElementById('id_latitude').value = latitude;
+                        document.getElementById('id_longitude').value = longitude;
+                        getMaps();
+                    }
+                });
+
+            }
+        }
+
+        function getMaps() {
+            mymap.setView([
+                latitude, longitude
+            ], 18);
+            if (marker != null) {
+                marker.remove();
+            }
+            marker = L.marker([latitude, longitude]);
+            marker.addTo(mymap);
+        }
+        // set default location to singapore with zoom 11
+        mymap = L.map('mapid2').setView([
+            1.3521, 103.8198
+        ], 11);
+        // set and load maptiles from HERE maps
+        L.tileLayer('http://{s}.{base}.maps.cit.api.here.com/maptile/2.1/{type}/{mapID}/{scheme}/{z}/{x}/{y}/{size}/{format}?app_id={app_id}&app_code={app_code}&lg={language}', {
+            attribution: 'Map &copy; 2016 <a href="http://developer.here.com">HERE</a>',
+            subdomains: '1234',
+            base: 'base',
+            type: 'maptile',
+            scheme: 'pedestrian.day',
+            app_id: 'QM5xg3KzHPkhtZsGxE29',
+            app_code: 'UE03S_6MOkiOtr6ELXKESw',
+            mapID: 'newest',
+            maxZoom: 20,
+            language: 'eng',
+            format: 'png8',
+            size: '256'
+        }).addTo(mymap);
+    </script>
+{% endblock %}

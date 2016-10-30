@@ -1,0 +1,151 @@
+<script type="text/javascript">
+    var postalCode;
+    var address;
+    var lat;
+    var long;
+    var m;
+    var park;
+    // icons from http://www.flaticon.com/ @joe
+    var customIcon = L.Icon.extend({
+    options: {
+      iconSize:     [32, 32], // size of the icon
+      iconAnchor:   [16, 16], // point of the icon which will correspond to marker's location
+      popupAnchor:  [0, -16] // point from which the popup should open relative to the iconAnchor
+    }
+});
+    var houseIcon = new customIcon({iconUrl: '/static/icons/house.png'});
+    var medicalIcon = new customIcon({iconUrl: '/static/icons/medical.png'});
+    var parkIcon = new customIcon({iconUrl: '/static/icons/park.png'});
+    var schoolIcon = new customIcon({iconUrl: '/static/icons/school.png'});
+
+    var carparks = L.markerClusterGroup({
+      removeOutsideVisibleBounds: true,
+    });
+
+    //adding multiple data for map clustering
+    var markerClusters = L.markerClusterGroup({
+      removeOutsideVisibleBounds: true,
+      maxClusterRadius:10,
+    });
+
+
+    var southWest = L.latLng(1.135249, 103.546180),
+    northEast = L.latLng(1.485653, 104.110689),
+    mymap = L.map('mapid', {
+        center: [1.3521, 103.8198],
+        zoom: 12,
+        maxBounds: [southWest, northEast],
+        minZoom: 11,
+    });
+
+    //mymap = L.map('mapid').setView([1.3521, 103.8198], 11);
+    L.tileLayer('http://{s}.{base}.maps.cit.api.here.com/maptile/2.1/{type}/{mapID}/{scheme}/{z}/{x}/{y}/{size}/{format}?app_id={app_id}&app_code={app_code}&lg={language}', {
+        attribution: 'Map &copy; 2016 <a href="http://developer.here.com">HERE</a>',
+        subdomains: '1234',
+        base: 'base',
+        type: 'maptile',
+        scheme: 'pedestrian.day',
+        app_id: 'QM5xg3KzHPkhtZsGxE29',
+        app_code: 'UE03S_6MOkiOtr6ELXKESw',
+        mapID: 'newest',
+        maxZoom: 17,
+        language: 'eng',
+        format: 'png8',
+        size: '256'
+    }).addTo(mymap);
+
+    {% for list in location_listing %}
+        m = L.marker([ {{ list.latitude }}, {{ list.longitude }} ],{icon: houseIcon});
+        var imageScr ='';
+        {% for pictures in listing_picture %}
+            {% if pictures.listing_id == list.id %}
+                imageScr = imageScr + '<img style="height:200px; width:325px;" src="{{ pictures.image.url }}" />';
+            {% endif %}
+        {% endfor %}
+        imageScr = imageScr +'<p><strong>Address:</strong>{{ list.street}} <strong>Block:</strong>{{ list.block}}</p>';
+        imageScr = imageScr +'<p><a href="/listing/view/{{ list.id }}" class="btn btn-default" role="button">View Details</a></p>';
+
+        //Force the width in image
+        console.log(imageScr);
+        m.bindPopup(imageScr , {
+             maxWidth: "auto",
+             minWidth: "400px"
+            });
+        markerClusters.addLayer(m);
+    {% endfor %}
+    mymap.addLayer(markerClusters);
+var parks;
+var chasClinics;
+var schools;
+
+function addSchools(){
+    schools = L.markerClusterGroup({
+      removeOutsideVisibleBounds: true,
+    });
+    omnivore.kml('/static/data/schools.kml')
+        .on('ready', function() {
+            this.eachLayer(function(marker) {
+                marker.setIcon(schoolIcon);
+                marker.bindPopup(marker.toGeoJSON().properties.name.toUpperCase());
+                schools.addLayer(marker);
+            })
+        });
+        mymap.addLayer(schools);
+}
+function addClinic(){
+    chasClinics = L.markerClusterGroup({
+      removeOutsideVisibleBounds: true,
+    });
+    omnivore.kml('/static/data/MOH_CHAS_CLINICS.kml')
+        .on('ready', function() {
+            this.eachLayer(function(marker) {
+                marker.setIcon(medicalIcon);
+                marker.bindPopup(marker.toGeoJSON().properties.name.toUpperCase());
+                chasClinics.addLayer(marker);
+            })
+        });
+        mymap.addLayer(chasClinics);
+}
+function addParks(){
+   parks = L.markerClusterGroup({
+      removeOutsideVisibleBounds: true,
+    });
+    omnivore.kml('/static/data/NATIONALPARKS.kml')
+        .on('ready', function() {
+            this.eachLayer(function(marker) {
+                marker.setIcon(parkIcon);
+                marker.bindPopup(marker.toGeoJSON().properties.name.toUpperCase());
+                parks.addLayer(marker);
+            })
+        });
+        mymap.addLayer(parks);
+    }
+
+function toggleParks() {
+      if(mymap.hasLayer(parks)) {
+        while (mymap.hasLayer(parks)){
+              mymap.removeLayer(parks);
+            }
+      } else {
+        addParks();
+      }
+}
+function toggleClinic() {
+      if(mymap.hasLayer(chasClinics)) {
+        while (mymap.hasLayer(chasClinics)){
+              mymap.removeLayer(chasClinics);
+            }
+      } else {
+        addClinic();
+      }
+}
+function toggleSchool() {
+      if(mymap.hasLayer(schools)) {
+        while (mymap.hasLayer(schools)){
+              mymap.removeLayer(schools);
+            }
+      } else {
+        addSchools();
+      }
+}
+</script>
