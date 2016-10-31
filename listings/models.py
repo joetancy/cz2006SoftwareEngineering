@@ -36,7 +36,13 @@ class Listing(models.Model):
     dateUpdate = models.TimeField(auto_now=True, auto_now_add=False)
     statusClosed = models.BooleanField()
 
+    def __str__(self):
+        return user.username + " " + postalCode
+
 
 class ListingPicture(models.Model):
     listing = models.ForeignKey(Listing, on_delete=models.CASCADE)
     image = models.ImageField(upload_to=user_directory_path)
+
+    def __str__(self):
+        return listing
