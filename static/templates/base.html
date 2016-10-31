@@ -4,6 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         {# Load the tag library #}
@@ -161,8 +162,9 @@
                                 </a>
                             </li>
                             <li id="school">
+                                <input type="checkbox" name="proximity" class="hidden" id="checkbox_school" value="school"/>
                                 <a href="#school" onclick="updateMap(1)">
-                                    <input type="checkbox" name="proximity" class="hidden" id="checkbox_school" value="school"/>
+                                   
                                     <!-- <label class="glyphicon glyphicon-book"></label> -->
                                     <img src="/static/icons/school.png"></img>
                                     <span class="fa fa-anchor solo">Schools</span>
@@ -170,8 +172,8 @@
                                 </a>
                             </li>
                             <li id="clinic">
+                                <input type="checkbox" name="proximity" id="checkbox_clinic" class="hidden" value="clinic"/>
                                 <a href="#clinic" onclick="updateMap(2)">
-                                    <input type="checkbox" name="proximity" id="checkbox_clinic" class="hidden" value="clinic"/>
                                     <!-- <label class="glyphicon glyphicon-plus-sign"></label> -->
                                     <img src="/static/icons/medical.png"></img>
                                     <span class="fa fa-anchor solo">Clinics</span>
@@ -179,8 +181,8 @@
                                 </a>
                             </li>
                             <li id="park">
+                                <input type="checkbox" name="proximity" id="checkbox_park" class="hidden" value="park"/>
                                 <a href="#park" id="park-switch" onclick="updateMap(3)">
-                                    <input type="checkbox" name="proximity" id="checkbox_park" class="hidden" value="park"/>
                                     <!-- <label class="glyphicon glyphicon-tree-deciduous"></label> -->
                                     <img src="/static/icons/park.png"></img>
                                     <span class="fa fa-anchor">Parks</span>
@@ -188,8 +190,8 @@
                                 </a>
                             </li>
                             <li id="gym">
+                                <input type="checkbox" name="proximity" id="checkbox_gym" class="hidden" value="gym"/>
                                 <a href="#gym" id="gym-switch" onclick="updateMap(5)">
-                                    <input type="checkbox" name="proximity" id="checkbox_gym" class="hidden" value="gym"/>
                                     <!-- <label class="glyphicon glyphicon-tree-deciduous"></label> -->
                                     <img src="/static/icons/gym.png"></img>
                                     <span class="fa fa-anchor">Gyms</span>
@@ -197,8 +199,8 @@
                                 </a>
                             </li>
                             <li id="community">
+                                <input type="checkbox" name="proximity" id="checkbox_community" class="hidden" value="community"/>
                                 <a href="#community" id="community-switch" onclick="updateMap(6)">
-                                    <input type="checkbox" name="proximity" id="checkbox_community" class="hidden" value="community"/>
                                     <!-- <label class="glyphicon glyphicon-tree-deciduous"></label> -->
                                     <img src="/static/icons/community.png"></img>
                                     <span class="fa fa-anchor">Community Clubs</span>
@@ -214,12 +216,12 @@
                                 </a>
                             </li>
                             <li>
-                                <input id="ex1" span="1" data-slider-id='ex1Slider' name="radius" type="text" data-slider-min="0" data-slider-max="2000" data-slider-step="100" data-slider-value="500" data-slider-enabled="false"/>
+                                <input id="ex1" data-slider-id='ex1Slider' name="radius" type="text" data-slider-min="0" data-slider-max="2000" data-slider-step="100" data-slider-value="500" data-slider-enabled="false"/>
                             </li>
                             <li id="search">
+                                <input type="text" class="form-control hidden" aria-label="search" value="advance_search" placeholder="search" id="id_searchP" maxlength="100" name="search">
                                 <a href="#anch3" id="search-switch">
                                     <span class="fa fa-anchor">
-                                        <input type="text" class="form-control hidden" aria-label="search" value="advance_search" placeholder="search" id="id_searchP" maxlength="100" name="search">
                                         <button class="btn btn-primary" type="submit">Advance Search</button>
                                     </span>
                                     <label id="search-toggle" class="glyphicon glyphicon-search hidden" aria-hidden="true"></label>
