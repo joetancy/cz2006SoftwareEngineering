@@ -25,7 +25,7 @@
                     <form method='POST' action='' enctype="multipart/form-data">
                         {% csrf_token %}
                         {% bootstrap_form form %}
-                        {% bootstrap_button "Submit" button_type="submit" button_class="btn-primary" %}
+                        {% bootstrap_button "Update" button_type="submit" button_class="btn-primary" %}
                     </form>
                 </div>
             </div>
@@ -43,6 +43,19 @@
         document.getElementById('sidebar-wrapper').innerHTML = '';
         document.getElementById('navbar-search-toggle').innerHTML = '';
         document.getElementById('listing').className = 'active';
+
+        $(document).ready(function () {
+          document.getElementById('id_postalCode').value = {{ listing.postalCode }}
+          document.getElementById('id_block').value = {{ listing.block }}
+          document.getElementById('id_street').value = "{{ listing.street }}"
+          document.getElementById('id_floor').value = {{ listing.floor }}
+          document.getElementById('id_unit').value = {{ listing.unit }}
+          document.getElementById('id_latitude').value = {{ listing.latitude }}
+          document.getElementById('id_longitude').value = {{ listing.longitude }}
+          document.getElementById('id_description').value = "{{ listing.description }}"
+          document.getElementById('id_askingPrice').value = {{ listing.askingPrice }}
+          document.getElementById('id_roomType').value = "{{ listing.roomType }}"
+        });
 
         function getAddress() {
             postalCode = document.getElementById('id_postalCode').value;

@@ -57,7 +57,9 @@
                 overflow: hidden;
                 z-index: -1;
             }
-
+            #ex1Slider {
+                width: 70%;
+            }
             body {
                 background-image: url("/static/css/bg.png");
                 background-repeat: repeat;
@@ -68,7 +70,7 @@
 
     <body>
         <div id="wrapper" class="active">
-            <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
                 <div class="container-fluid">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -80,8 +82,8 @@
                         <a class="navbar-brand" href="/" style="transform: translateX(-50%); left: 50%; position: absolute; font-family: 'Pacifico', cursive; font-size:32px; color:white;">
                             BetterMapper
                         </a>
-                        <div class="navbar-brand" id="navbar-search-toggle">
-                            <a id="menu-toggle" href="#" class="glyphicon glyphicon-align-justify btn-menu toggle">
+                        <div class="navbar-brand" id="navbar-search-toggle" style="margin-left:0px;">
+                            <a id="menu-toggle" href="#" class="glyphicon glyphicon-search btn-menu toggle">
                                 <i class="fa fa-bars"></i>
                             </a>
                         </div>
@@ -127,7 +129,7 @@
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
                             {% if user.is_authenticated %}
-                                <li>
+                                <li style="margin-right:10px;">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Welcome
                                         {{ user.first_name }}
                                         {{ user.last_name }}!
@@ -140,7 +142,7 @@
                                     </ul>
                                 </li>
                             {% else %}
-                                <a class="btn btn-primary navbar-btn" href="/account/login/">Login</a>
+                                <a style="margin-right:10px;" class="btn btn-success navbar-btn" href="/account/login/">Login</a>
                             {% endif %}
                         </ul>
                     </div>
@@ -150,47 +152,88 @@
             <!-- Sidebar -->
             <div id="sidebar-wrapper">
                 <nav id="spy">
-                    <ul class="sidebar-nav nav">
-                        <li class="sidebar-brand">
-                            <a href="#home" id="do_not_click" onfocus="this.blur();">
-                                <span class="fa fa-home solo">Toggle Data</span>
-                            </a>
-                        </li>
-                        <li id="school">
-                            <a href="#anch1" onclick="updateMap(1)">
-                                <span class="fa fa-anchor solo">Schools</span>
-                                <label id="school-toggle" class="glyphicon glyphicon-ok hidden" aria-hidden="true"></label>
-                            </a>
-                        </li>
-                        <li id="clinic">
-                            <a href="#anch2" onclick="updateMap(2)">
-                                <span class="fa fa-anchor solo">Clinics</span>
-                                <label id="clinic-toggle" class="glyphicon glyphicon-ok hidden" aria-hidden="true"></label>
-                            </a>
-                        </li>
-                        <li id="park">
-                            <a href="#anch3" id="park-switch" onclick="updateMap(3)">
-                                <span class="fa fa-anchor">Parks</span>
-                                <label id="park-toggle" class="glyphicon glyphicon-ok hidden" aria-hidden="true"></label>
-                            </a>
-                        </li>
-                        <li>
-                            <input id="ex1" span="1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="0"/>
-                        </li>
-                        <li id="search">
-                            <a href="#anch3" id="search-switch">
-                                <span class="fa fa-anchor">Advance Search</span>
-                                <label id="search-toggle" class="glyphicon glyphicon-search hidden" aria-hidden="true"></label>
-                            </a>
-                        </li>
-                    </ul>
+                    <form action="/" method="POST">
+                    {% csrf_token %}
+                        <ul class="sidebar-nav nav">
+                            <li class="sidebar-brand">
+                                <a href="#home" id="do_not_click" onfocus="this.blur();">
+                                    <span class="fa fa-home solo">Toggle Data</span>
+                                </a>
+                            </li>
+                            <li id="school">
+                                <a href="#school" onclick="updateMap(1)">
+                                    <input type="checkbox" name="proximity" class="hidden" id="checkbox_school" value="school"/>
+                                    <!-- <label class="glyphicon glyphicon-book"></label> -->
+                                    <img src="/static/icons/school.png"></img>
+                                    <span class="fa fa-anchor solo">Schools</span>
+                                    <label id="school-toggle" class="glyphicon glyphicon-ok hidden" aria-hidden="true"></label>
+                                </a>
+                            </li>
+                            <li id="clinic">
+                                <a href="#clinic" onclick="updateMap(2)">
+                                    <input type="checkbox" name="proximity" id="checkbox_clinic" class="hidden" value="clinic"/>
+                                    <!-- <label class="glyphicon glyphicon-plus-sign"></label> -->
+                                    <img src="/static/icons/medical.png"></img>
+                                    <span class="fa fa-anchor solo">Clinics</span>
+                                    <label id="clinic-toggle" class="glyphicon glyphicon-ok hidden" aria-hidden="true"></label>
+                                </a>
+                            </li>
+                            <li id="park">
+                                <a href="#park" id="park-switch" onclick="updateMap(3)">
+                                    <input type="checkbox" name="proximity" id="checkbox_park" class="hidden" value="park"/>
+                                    <!-- <label class="glyphicon glyphicon-tree-deciduous"></label> -->
+                                    <img src="/static/icons/park.png"></img>
+                                    <span class="fa fa-anchor">Parks</span>
+                                    <label id="park-toggle" class="glyphicon glyphicon-ok hidden" aria-hidden="true"></label>
+                                </a>
+                            </li>
+                            <li id="gym">
+                                <a href="#gym" id="gym-switch" onclick="updateMap(5)">
+                                    <input type="checkbox" name="proximity" id="checkbox_gym" class="hidden" value="gym"/>
+                                    <!-- <label class="glyphicon glyphicon-tree-deciduous"></label> -->
+                                    <img src="/static/icons/gym.png"></img>
+                                    <span class="fa fa-anchor">Gyms</span>
+                                    <label id="gym-toggle" class="glyphicon glyphicon-ok hidden" aria-hidden="true"></label>
+                                </a>
+                            </li>
+                            <li id="community">
+                                <a href="#community" id="community-switch" onclick="updateMap(6)">
+                                    <input type="checkbox" name="proximity" id="checkbox_community" class="hidden" value="community"/>
+                                    <!-- <label class="glyphicon glyphicon-tree-deciduous"></label> -->
+                                    <img src="/static/icons/community.png"></img>
+                                    <span class="fa fa-anchor">Community Clubs</span>
+                                    <label id="community-toggle" class="glyphicon glyphicon-ok hidden" aria-hidden="true"></label>
+                                </a>
+                            </li>
+                            <li id="radius" class="margin-top-30">
+                                <a href="#radius" id="radius-switch" onclick="updateMap(4)">
+                                    <!-- <label class="glyphicon glyphicon-record"></label> -->
+                                    <img src="/static/icons/radius.png"></img>
+                                    <span class="fa fa-anchor">Radius</span>
+                                    <label id="radius-toggle" class="glyphicon glyphicon-ok hidden" aria-hidden="true"></label>
+                                </a>
+                            </li>
+                            <li>
+                                <input id="ex1" span="1" data-slider-id='ex1Slider' name="radius" type="text" data-slider-min="0" data-slider-max="2000" data-slider-step="100" data-slider-value="500" data-slider-enabled="false"/>
+                            </li>
+                            <li id="search">
+                                <a href="#anch3" id="search-switch">
+                                    <span class="fa fa-anchor">
+                                        <input type="text" class="form-control hidden" aria-label="search" value="advance_search" placeholder="search" id="id_searchP" maxlength="100" name="search">
+                                        <button class="btn btn-primary" type="submit">Advance Search</button>
+                                    </span>
+                                    <label id="search-toggle" class="glyphicon glyphicon-search hidden" aria-hidden="true"></label>
+                                </a>
+                            </li>
+                        </ul>
+                    </form>
                 </nav>
             </div>
             <!-- http://bootsnipp.com/snippets/4OZ8R -->
             <!-- Page content -->
             <div id="page-content-wrapper">
                 <div class="page-content">
-                    <div class="container-fluid">
+                    <div class="container">
                         {% block content %}{% endblock %}
                     </div>
                     <!-- END CONTAINER -->
@@ -206,10 +249,73 @@
                 $("#wrapper").toggleClass("active");
             });
             $('#ex1').slider({
+                {% if searchInput %}
+                {% if reverse_search %}
+                value:{{radius}},
+                {%endif%}
+                {%endif%}
                 formatter: function (value) {
-                    return 'Radius: ' + value + "km";
+                    $("#ex1").val(value);
+                    return 'Radius: ' + value + "m";
                 }
             });
+            var startPos = $("#ex1").slider("getValue");
+            var endPos = '';
+            $('#ex1').slider().on('slide', function (slideEvt) {
+                endPos = slideEvt.value;
+                if (startPos != endPos) {
+                    $("#ex1").val(endPos);
+                    createRadius();
+                }
+
+                startPos = endPos;
+            }).data('slider');
+            $('#ex1').slider().on('slideStop', function (slideEvt) {
+                $("#ex1").val(slideEvt.value);
+                createRadius();
+                toggleAll();
+            }).data('slider');
+            
+
+            
+            {% if searchInput %}
+                {% if reverse_search %}
+                    $(document).ready(function () {
+                        $("#ex1").val({{radius}});
+                        {% for check in checkbox %}
+                            {%if check == 'school'%}
+                                location = "#school";
+                                toggle = "#school-toggle";
+                                checkBox = "#checkbox_school";
+                            {%endif%}
+                            {%if check == 'clinic'%}
+                                location = "#clinic";
+                                toggle = "#clinic-toggle";
+                                checkBox = "#checkbox_clinic";
+                            {%endif%}
+                            {%if check == 'park'%}
+                                location = "#park";
+                                toggle = "#park-toggle";
+                                checkBox = "#checkbox_park";
+                            {%endif%}
+                            {%if check == 'gym'%}
+                                location = "#gym";
+                                toggle = "#gym-toggle";
+                                checkBox = "#checkbox_gym";
+                            {%endif%}
+                            {%if check == 'community'%}
+                                location = "#community";
+                                toggle = "#community-toggle";
+                                checkBox = "#checkbox_community";
+                            {%endif%}
+                            $(location).toggleClass("active");
+                            $(toggle).toggleClass("hidden");
+                            $(checkBox).prop("checked", !$(checkBox).prop("checked"));
+                        {%endfor%}
+                        updateMap(4);
+                    });
+                {%endif%}
+            {%endif%}
         </script>
         <script src="{% static 'js/custom-sidebar.js' %}"></script>
         <script src="{% static 'js/bootstrap-slider.js' %}"></script>

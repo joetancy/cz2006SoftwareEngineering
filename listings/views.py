@@ -27,6 +27,36 @@ def create(request):
     return render(request, 'listings/createListing.html', {'form': form})
 
 
+def update(request, listing_id):
+    if(verifyUserToListing(request.user.id, listing_id)):
+        form = UpdateListingForm(request.POST or None)
+        listing = Listing.objects.get(id=listing_id)
+        if(form.is_valid()):
+            data = form.cleaned_data
+            # added type casting to prevent type error @timo
+            if(int(data['askingPrice']) < 0 or int(data['floor']) < 0 or int(data['unit']) < 0):
+                form.add_error(None, "Floor, unit & price cannot be negative!")
+                return render(request, 'listings/updateListing.html', {'form': form})
+            # get listing thats supposed to be updated
+            # assign corresponding data to listing object to be updated
+            listing.block = data['block']
+            listing.street = data['street']
+            listing.floor = data['floor']
+            listing.unit = data['unit']
+            listing.postalCode = data['postalCode']
+            listing.latitude = data['latitude']
+            listing.longitude = data['longitude']
+            listing.description = data['description']
+            listing.askingPrice = data['askingPrice']
+            listing.roomType = data['roomType']
+            # update listing
+            listing.save()
+            return redirect('/listing/view/' + listing_id)
+        return render(request, 'listings/updateListing.html', {'form': form, 'listing': listing})
+    else:
+        return HttpResponseForbidden()
+
+
 def view(request):
     listings = Listing.objects.filter(user=request.user)
     listingPictures = ListingPicture.objects.filter(listing__in=listings)
@@ -34,10 +64,6 @@ def view(request):
 
 
 def viewAll(request):
-    # listings = Listing.objects.all()
-    # listingPictures = ListingPicture.objects.filter(listing__in=listings)
-    # return render(request, 'listings/viewAllListings.html', {'listings':
-    # listings, 'listingPictures': listingPictures})
     listings_list = Listing.objects.all()
     paginator = Paginator(listings_list, 5)  # Show 5 listing per page
     page = request.GET.get('page')
@@ -75,7 +101,7 @@ def delete(request, listing_id):
 
 def verifyUserToListing(user_id, listing_id):
     listings = Listing.objects.get(id=listing_id)
-    if(listings.user == user_id):
+    if(listings.user.id == user_id):
         return True
     else:
         return False
