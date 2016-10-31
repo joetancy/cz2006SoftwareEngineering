@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% load bootstrap3 %}
 {% block title %}
-    Create Listing
+    Update Listing
 {% endblock %}
 {% block content %}
 
@@ -52,7 +52,7 @@
           document.getElementById('id_unit').value = {{ listing.unit }}
           document.getElementById('id_latitude').value = {{ listing.latitude }}
           document.getElementById('id_longitude').value = {{ listing.longitude }}
-          document.getElementById('id_description').value = "{{ listing.description }}"
+          document.getElementById('id_description').value = '{{ listing.description }}'
           document.getElementById('id_askingPrice').value = {{ listing.askingPrice }}
           document.getElementById('id_roomType').value = "{{ listing.roomType }}"
         });
