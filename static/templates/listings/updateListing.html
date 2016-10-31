@@ -39,7 +39,7 @@
         var lat;
         var long;
         var marker;
-        var description = '{{ listing.description|linebreaks }}';
+        var description = '{{ listing.description|linebreaks|escapejs }}';
 
         document.getElementById('sidebar-wrapper').innerHTML = '';
         document.getElementById('navbar-search-toggle').innerHTML = '';
