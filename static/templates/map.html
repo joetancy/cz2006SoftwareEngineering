@@ -59,14 +59,14 @@
         var imageScr = '';
         {% for pictures in listing_picture %}
             {% if pictures.listing_id == list.id %}
-                imageScr = imageScr + '<img style="height:200px; width:325px;" src="{{ pictures.image.url }}" />';
+                imageScr = '<img style="height:200px; width:325px;" src="{{ pictures.image.url }}" />';
             {% endif %}
         {% endfor %}
         imageScr = imageScr + '<p><strong>Address:</strong>{{ list.street}} <strong>Block:</strong>{{ list.block}}</p>';
         imageScr = imageScr + '<p><a href="/listing/view/{{ list.id }}" class="btn btn-default" role="button">View Details</a></p>';
 
         //Force the width in image
-        console.log(imageScr);
+        //console.log(imageScr);
         m.bindPopup(imageScr, {
             maxWidth: "auto",
             minWidth: "400px"
@@ -74,7 +74,7 @@
         //markerClusters.addLayer(m); mymap.addLayer(m);
         houses.push(m);
     {% endfor %}
-    console.log(houses);
+    //console.log(houses);
     $(document).ready(function () {
         L.tileLayer('http://{s}.{base}.maps.cit.api.here.com/maptile/2.1/{type}/{mapID}/{scheme}/{z}/{x}/{y}/{size}/{format}?app_id={app_id}&app_code={app_code}&lg={language}', {
             attribution: 'Map &copy; 2016 <a href="http://developer.here.com">HERE</a>',

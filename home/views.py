@@ -17,18 +17,18 @@ def index(request):
             data = form.cleaned_data
             if(search == "advance_search"):
                 listing = Listing.objects.filter(street__startswith = "")
-                listingPictures = ListingPicture.objects.filter(listing__in=listing)
                 checkbox = request.POST.getlist('proximity')
                 radius = request.POST.get("radius", "")
                 reverse_search = True
             else:
                 listing = Listing.objects.filter(street__iregex = r'\b'+data['location'])
-                listingPictures = ListingPicture.objects.filter(listing__in=listing)
                 reverse_search = False
             # process the data in form.cleaned_data as required
             #print(data)
             #listing = Listing.objects.get(street = data['location'])
             noData = (len(listing) == 0)
+            listingPictures = ListingPicture.objects.filter(listing__in=listing)
+            print(listingPictures.query)
             #print(listingPictures[0].listing_id)
             #listing2 = Listing.objects.filter(street__icontains = data['location']).only("latitude","longitude")
             searchInput = True
