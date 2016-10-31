@@ -22,7 +22,7 @@ def index(request):
                 radius = request.POST.get("radius", "")
                 reverse_search = True
             else:
-                listing = Listing.objects.filter(street__startswith = data['location'])
+                listing = Listing.objects.filter(street__iregex = r'\b'+data['location'])
                 listingPictures = ListingPicture.objects.filter(listing__in=listing)
                 reverse_search = False
             # process the data in form.cleaned_data as required

@@ -163,7 +163,11 @@
 
         document.getElementById('sidebar-wrapper').innerHTML = '';
         document.getElementById('navbar-search-toggle').innerHTML = '';
-        document.getElementById('listing').className = 'active';
+        var elementExists = document.getElementById("listing");
+        if (typeof(elementExists) != 'undefined' && elementExists != null)
+        {
+          document.getElementById('listing').className = 'active';
+        }
 
         $(document).ready(function () {
             {% for listing in listings %}

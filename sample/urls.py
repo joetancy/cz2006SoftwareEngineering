@@ -29,13 +29,13 @@ urlpatterns = [
     url(r'^account/logout', accountView.logout, name='accountLogout'),
 
     url(r'^listing/create/$', listingsView.create, name='createListing'),
-    url(r'^listing/update/(?P<listing_id>[0-9]+)$',
+    url(r'^listing/update/(?P<listing_id>[\d+])$',
         listingsView.update, name='updateListing'),
     url(r'^listing/view/$', listingsView.view, name='viewListing'),
     url(r'^listing/viewAll/$', listingsView.viewAll, name='viewAllListing'),
-    url(r'^listing/view/(?P<listing_id>[0-9]+)$',
+    url(r'^listing/view/(?P<listing_id>[\d+])$',
         listingsView.viewDetail, name='viewListingDetails'),
-    url(r'^listing/delete/(?P<listing_id>[0-9]+)$',
+    url(r'^listing/delete/(?P<listing_id>[\d+])$',
         listingsView.delete, name='deleteListing'),
 
     url(r'^admin/', admin.site.urls),
