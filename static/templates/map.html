@@ -258,7 +258,7 @@
 
     function addGyms() {
         gyms = L.markerClusterGroup({removeOutsideVisibleBounds: true});
-        omnivore.kml('/static/data/GYMS.kml').on('ready', function () {
+        omnivore.kml('/static/data/gyms.kml').on('ready', function () {
             this.eachLayer(function (marker) {
                 marker.setIcon(gymIcon);
                 marker.bindPopup(marker.toGeoJSON().properties.name.toUpperCase());
@@ -271,7 +271,7 @@
     function doGymRadius() {
         gyms = L.markerClusterGroup({removeOutsideVisibleBounds: true});
 
-        omnivore.kml('/static/data/GYMS.kml').on('ready', function () {
+        omnivore.kml('/static/data/gyms.kml').on('ready', function () {
             this.eachLayer(function (marker) {
                 var radius = ($('#ex1').val() / 2);
                 var markerPos = marker.getLatLng();
