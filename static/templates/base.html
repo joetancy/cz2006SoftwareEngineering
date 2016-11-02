@@ -10,25 +10,25 @@
         {# Load the tag library #}
         {% load bootstrap3 %}
         {# Load CSS and JavaScript #}
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css"/>
-        <link rel="stylesheet" href="http://leaflet.github.io/Leaflet.markercluster/dist/MarkerCluster.css"/>
-        <link rel="stylesheet" href="http://leaflet.github.io/Leaflet.markercluster/dist/MarkerCluster.Default.css"/>
+        {% load static %}
+        <script src="{% static 'js/jquery.min.js' %}"></script>
+        <script src="{% static 'js/leaflet.js' %}"></script>
+        <link rel="stylesheet" href="{% static 'css/leaflet.css' %}"/>
+        <link rel="stylesheet" href="{% static 'css/MarkerCluster.css' %}"/>
+        <link rel="stylesheet" href="{% static 'css/MarkerCluster.Default.css' %}"/>
         <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-        <script src="http://leaflet.github.io/Leaflet.markercluster/dist/leaflet.markercluster-src.js"></script>
-        <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
+        <script src="{% static 'js/leaflet.markercluster-src.js' %}"></script>
+        <script src="{% static 'js/leaflet-omnivore.min.js' %}"></script>
 
         {% bootstrap_css %}
         {% bootstrap_javascript %}
         <title>
             {% block title %}{% endblock %}
         </title>
-        {% load static %}
         <link rel="stylesheet" type="text/css" href="{% static 'css/custom-sidebar.css' %}"/>
         <link rel="stylesheet" type="text/css" href="{% static 'css/custom-nav.css' %}"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.3.0/css/bootstrap-slider.min.css"/>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.3.0/bootstrap-slider.min.js"></script>
+        <link rel="stylesheet" href="{% static 'css/bootstrap-slider.min.css' %}"/>
+        <script src="{% static 'js/bootstrap-slider.min.js'%}"></script>
         <style>
             .margin-top-05 {
                 margin-top: 0.5em;
@@ -164,7 +164,7 @@
                             <li id="school">
                                 <input type="checkbox" name="proximity" class="hidden" id="checkbox_school" value="school"/>
                                 <a href="#school" onclick="updateMap(1)">
-                                   
+
                                     <!-- <label class="glyphicon glyphicon-book"></label> -->
                                     <img src="/static/icons/school.png"></img>
                                     <span class="fa fa-anchor solo">Schools</span>
@@ -277,9 +277,9 @@
                 createRadius();
                 toggleAll();
             }).data('slider');
-            
 
-            
+
+
             {% if searchInput %}
                 {% if reverse_search %}
                     $(document).ready(function () {

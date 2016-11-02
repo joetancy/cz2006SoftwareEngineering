@@ -26,7 +26,7 @@ class CreateListingForm(forms.Form):
     description = forms.CharField(
         label='Description', max_length=500, required=True, widget=forms.Textarea)
     askingPrice = forms.IntegerField(label='Price', required=True)
-    picture0 = forms.FileField()
+    picture0 = forms.FileField(required=True)
     picture1 = forms.FileField(required=False)
     picture2 = forms.FileField(required=False)
     picture3 = forms.FileField(required=False)

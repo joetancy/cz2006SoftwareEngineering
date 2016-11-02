@@ -19,6 +19,7 @@
                         {% csrf_token %}
                         {% bootstrap_form form %}
                         {% bootstrap_button "Submit" button_type="submit" button_class="btn-primary" %}
+                        {% bootstrap_button "Register" href="/account/register/" button_class="btn-success" %}
                     </form>
                 </div>
             </div>

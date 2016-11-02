@@ -13,17 +13,25 @@ def create(request):
     if(form.is_valid()):
         data = form.cleaned_data
         # added type casting to prevent type error @timo
-        if(int(data['askingPrice']) < 0 or int(data['floor']) < 0 or int(data['unit']) < 0):
-            form.add_error(None, "Floor, unit & price cannot be negative!")
+        if(int(data['askingPrice']) < 0):
+            form.add_error(
+                "askingPrice", "Price cannot be negative!")
             return render(request, 'listings/createListing.html', {'form': form})
-        listing = Listing(user=request.user, block=data['block'], street=data['street'], floor=data['floor'], unit=data[
-                          'unit'], postalCode=data['postalCode'], latitude=data['latitude'], longitude=data['longitude'], description=data['description'], askingPrice=data['askingPrice'], roomType=data['roomType'], statusClosed=False)
-        listing.save()
-        for pictures in request.FILES:
-            pic0 = ListingPicture(
-                listing=listing, image=request.FILES[pictures])
-            pic0.save()
-        return redirect('/listing/view/')
+        elif(int(data['floor']) < 0):
+            form.add_error("floor", "Floor cannot be negative!")
+            return render(request, 'listings/createListing.html', {'form': form})
+        elif(int(data['unit']) < 0):
+            form.add_error("unit", "Unit cannot be negative!")
+            return render(request, 'listings/createListing.html', {'form': form})
+        else:
+            listing = Listing(user=request.user, block=data['block'], street=data['street'], floor=data['floor'], unit=data[
+                              'unit'], postalCode=data['postalCode'], latitude=data['latitude'], longitude=data['longitude'], description=data['description'], askingPrice=data['askingPrice'], roomType=data['roomType'], statusClosed=False)
+            listing.save()
+            for pictures in request.FILES:
+                pic0 = ListingPicture(
+                    listing=listing, image=request.FILES[pictures])
+                pic0.save()
+            return redirect('/listing/view/')
     return render(request, 'listings/createListing.html', {'form': form})
 
 

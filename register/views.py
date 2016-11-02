@@ -9,13 +9,20 @@ def register(request):
     form = RegisterForm(request.POST or None)
     if form.is_valid():
         data = form.cleaned_data
-        if data['password'] == data['confirm_password']:
-            user = User.objects.create_user(data['username'], data['email'], data[
-                                            'password'], first_name=data['first_name'], last_name=data['last_name'])
-            return redirect('/')
-        else:
-            form.add_error(None, "Passwords don't match!")
+        if User.objects.get(username=data['username']):
+            form.add_error("username", "Username already exists!")
             return render(request, 'register/register.html', {'form': form})
+        elif User.objects.get(email=data['email']):
+            form.add_error("email", "Email already registered!")
+            return render(request, 'register/register.html', {'form': form})
+        else:
+            if data['password'] == data['confirm_password']:
+                user = User.objects.create_user(data['username'], data['email'], data[
+                                                'password'], first_name=data['first_name'], last_name=data['last_name'])
+                return redirect('/')
+            else:
+                form.add_error("confirm_password", "Passwords don't match!")
+                return render(request, 'register/register.html', {'form': form})
     return render(request, 'register/register.html', {'form': form})
 
 

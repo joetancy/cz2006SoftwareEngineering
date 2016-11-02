@@ -62,7 +62,7 @@
                 imageScr = '<img style="height:200px; width:325px;" src="{{ pictures.image.url }}" />';
             {% endif %}
         {% endfor %}
-        imageScr = imageScr + '<p><strong>Address:</strong>{{ list.street}} <strong>Block:</strong>{{ list.block}}</p>';
+        imageScr = imageScr + '<p><strong>Address: </strong>{{ list.street}} <strong>Block: </strong>{{ list.block}}</p>';
         imageScr = imageScr + '<p><a href="/listing/view/{{ list.id }}" class="btn btn-default" role="button">View Details</a></p>';
 
         //Force the width in image
