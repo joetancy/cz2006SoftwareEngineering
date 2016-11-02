@@ -8,6 +8,9 @@
     <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-10">
+          {% if deleted %}
+          {% bootstrap_alert "Listing successfully deleted!" alert_type='success' %}
+          {% endif %}
             {% if listings %}
                 {% for listing in listings %}
                     <div class="panel panel-default">
@@ -18,7 +21,7 @@
                                     #{{ listing.floor|title }}-{{ listing.unit|title }}</a>
                             </h3>
                             {% if listing.user == request.user %}
-                            <button class="btn btn-danger pull-right btn-xs" role="button" onclick="confirmDelete()">
+                            <button class="btn btn-danger pull-right btn-xs" role="button" onclick="confirmDelete({{ listing.id }})">
                                 <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
                                 Delete</button>
                             <a style="margin-right:5px;" class="btn btn-success pull-right btn-xs" href="/listing/update/{{ listing.id }}" role="button">
@@ -66,7 +69,7 @@
     document.getElementById('navbar-search-toggle').innerHTML = '';
     document.getElementById('listing').className = 'active';
 
-    function confirmDelete() {
+    function confirmDelete(listingID) {
         var result = confirm("Confirm deletion?");
         if (result) {
             window.location = "/listing/delete/" + listingID;

@@ -105,7 +105,7 @@ def delete(request, listing_id):
     if(listings.user == request.user):
         listings.delete()
         if(listings):
-            return redirect('/listing/view/')
+            return render(request, 'listings/viewListings.html', {'deleted': True})
     else:
         return HttpResponseForbidden()
 
