@@ -12,16 +12,19 @@ def create(request):
     form = CreateListingForm(request.POST or None, request.FILES or None)
     if(form.is_valid()):
         data = form.cleaned_data
+        valid = True;
         # added type casting to prevent type error @timo
         if(int(data['askingPrice']) < 0):
             form.add_error(
                 "askingPrice", "Price cannot be negative!")
-            return render(request, 'listings/createListing.html', {'form': form})
-        elif(int(data['floor']) < 0):
+            valid = False
+        if(int(data['floor']) < 0):
             form.add_error("floor", "Floor cannot be negative!")
-            return render(request, 'listings/createListing.html', {'form': form})
-        elif(int(data['unit']) < 0):
+            valid = False
+        if(int(data['unit']) < 0):
             form.add_error("unit", "Unit cannot be negative!")
+            valid = False
+        if(not valid):
             return render(request, 'listings/createListing.html', {'form': form})
         else:
             listing = Listing(user=request.user, block=data['block'], street=data['street'], floor=data['floor'], unit=data[
