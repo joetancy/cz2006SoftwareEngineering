@@ -90,6 +90,7 @@
             format: 'png8',
             size: '256'
         }).addTo(mymap);
+        mymap.zoomControl.setPosition('bottomright');
         //mymap.addLayer(markerClusters);
         for (i = 0; i < houses.length; i++) {
             mymap.addLayer(houses[i]);
