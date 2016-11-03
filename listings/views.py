@@ -69,7 +69,7 @@ def update(request, listing_id):
 
 
 def view(request):
-    listings = Listing.objects.filter(user=request.user).order_by('dateListed')
+    listings = Listing.objects.filter(user=request.user).order_by('id')
     listingPictures = ListingPicture.objects.filter(listing__in=listings)
     return render(request, 'listings/viewListings.html', {'listings': listings, 'listingPictures': listingPictures})
 
