@@ -12,7 +12,7 @@ def create(request):
     form = CreateListingForm(request.POST or None, request.FILES or None)
     if(form.is_valid()):
         data = form.cleaned_data
-        valid = True;
+        valid = True
         # added type casting to prevent type error @timo
         if(int(data['askingPrice']) < 0):
             form.add_error(
@@ -76,7 +76,7 @@ def view(request):
 
 def viewAll(request):
     listings_list = Listing.objects.all().order_by('dateListed')
-    paginator = Paginator(listings_list, 5)  # Show 5 listing per page
+    paginator = Paginator(listings_list, 5)  # Show 5 listings per page
     page = request.GET.get('page')
     try:
         listings = paginator.page(page)
