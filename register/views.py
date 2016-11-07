@@ -9,10 +9,10 @@ def register(request):
     form = RegisterForm(request.POST or None)
     if form.is_valid():
         data = form.cleaned_data
-        if User.objects.get(username=data['username']):
+        if User.objects.get(username=data['username']).exists():
             form.add_error("username", "Username already exists!")
             return render(request, 'register/register.html', {'form': form})
-        elif User.objects.get(email=data['email']):
+        elif User.objects.get(email=data['email']).exists():
             form.add_error("email", "Email already registered!")
             return render(request, 'register/register.html', {'form': form})
         else:
