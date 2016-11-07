@@ -19,7 +19,8 @@
         <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
         <script src="{% static 'js/leaflet.markercluster-src.js' %}"></script>
         <script src="{% static 'js/leaflet-omnivore.min.js' %}"></script>
-
+        <script src="{% static 'js/bootstrap-tour.min.js' %}"></script>
+        <script src="{% static 'js/help-intro.js' %}"></script>
         {% bootstrap_css %}
         {% bootstrap_javascript %}
         <title>
@@ -27,6 +28,7 @@
         </title>
         <link rel="stylesheet" type="text/css" href="{% static 'css/custom-sidebar.css' %}"/>
         <link rel="stylesheet" type="text/css" href="{% static 'css/custom-nav.css' %}"/>
+        <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap-tour.min.css' %}"/>
         <link rel="stylesheet" href="{% static 'css/bootstrap-slider.min.css' %}"/>
         <script src="{% static 'js/bootstrap-slider.min.js'%}"></script>
         <style>
@@ -95,8 +97,8 @@
                                 <a href="/">Home</a>
                             </li>
                             {% if not user.is_authenticated %}
-                                <li>
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account
+                                <li id="account">
+                                    <a href="#" id="listing-link" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account
                                         <span class="caret"></span>
                                     </a>
                                     <ul class="dropdown-menu">
@@ -110,8 +112,8 @@
                                 </li>
                             {% endif %}
                             {% if user.is_authenticated %}
-                                <li id="listing">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Listings
+                                <li id="listing" >
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" id="listing-link" aria-haspopup="true" aria-expanded="false"    >Listings
                                         <span class="caret"></span>
                                     </a>
                                     <ul class="dropdown-menu">
@@ -129,6 +131,9 @@
                             {% endif %}
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
+                             <li style="margin-right:10px;" class="hidden" id="help">
+                                 <a  href="#help" onclick="doIntro()">Help</a>
+                             </li>
                             {% if user.is_authenticated %}
                                 <li style="margin-right:10px;">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Welcome
@@ -215,7 +220,7 @@
                                     <label id="radius-toggle" class="glyphicon glyphicon-ok hidden" aria-hidden="true"></label>
                                 </a>
                             </li>
-                            <li>
+                            <li id="radius-slider">
                                 <input id="ex1" data-slider-id='ex1Slider' name="radius" type="text" data-slider-min="0" data-slider-max="2000" data-slider-step="100" data-slider-value="500" data-slider-enabled="false"/>
                             </li>
                             <li id="search">

@@ -6,6 +6,7 @@
 {% block content %}
 
     <div class="row">
+    <div class="alert alert-danger hidden" id="errorField" role="alert"></div>
         <div class="col-md-8">
             <div class="panel panel-default">
                 <div class="panel-heading">
@@ -25,14 +26,16 @@
                     <form method='POST' action='' enctype="multipart/form-data">
                         {% csrf_token %}
                         {% bootstrap_form form %}
-                        {% bootstrap_button "Submit" button_type="submit" button_class="btn-primary" %}
+                        <button class="btn btn-primary" type="submit">Submit</button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
+
 {% endblock %}
 {% block js %}
+
     <script type="text/javascript">
         var postalCode;
         var address;
